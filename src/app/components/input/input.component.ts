@@ -50,7 +50,7 @@ export class InputComponent {
     AccentTextWithBackgroundComponent: {
       component: AccentTextWithBackgroundComponent,
       name: 'Accent text with background',
-      height: 2
+      height: 1
     },
     TextLineComponent: {
       component: TextLineComponent,
@@ -60,42 +60,42 @@ export class InputComponent {
     PreheaderComponent: {
       component: PreheaderComponent,
       name: 'Preheader',
-      height: 2
+      height: 1
     },
     HeaderTitleComponent: {
       component: HeaderTitleComponent,
       name: 'HeaderTitle',
-      height: 2
+      height: 1
     },
     HeaderTextComponent: {
       component: HeaderTextComponent,
       name: 'HeaderTitle',
-      height: 2
+      height: 1
     },
     ContentTextComponent: {
       component: ContentTextComponent,
       name: 'ContentText',
-      height: 2
+      height: 1
     },
     AccentTextWithBorderComponent: {
       component: AccentTextWithBorderComponent,
       name: 'AccentTextWithBorder',
-      height: 2
+      height: 1
     },
     ImageComponent: {
       component: ImageComponent,
       name: 'Image',
-      height: 2
+      height: 1
     },
     ButtonWithBackgroundComponent: {
       component: ButtonWithBackgroundComponent,
-      name: 'Button. Верхнее поле - текст, нижнее - ссылка',
+      name: 'Button',
       height: 2
     },
     FooterTwoComponent: {
       component: FooterTwoComponent,
       name: 'FooterTwo - напиши сюда ссылку на условия акции',
-      height: 2
+      height: 1
     },
   }
 
