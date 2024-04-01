@@ -6,7 +6,7 @@
   <tui-tile
             *ngFor="let block of blocks; let index = index"
             class="tile"
-            [height]=1
+            [height]="block.height"
             [style.order]="order.get(index)"
             [width]=3>
     <div class="content">

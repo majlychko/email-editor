@@ -10,7 +10,7 @@ import { DynamicBlock } from '../dynamic-block';
 })
 export class ButtonWithBackgroundComponent extends DynamicBlock {
 
-  onTextChange = (text: string) => {
+  onTextChange = (text: string, text1: string) => {
     const template = `
     <!-- start: button with background -->
     <tr>
@@ -20,7 +20,7 @@ export class ButtonWithBackgroundComponent extends DynamicBlock {
                 <tr>
                     <td class="btnBack" bgcolor="#ffdd2d" align="center"
                         style="mso-padding-alt:16px 36px 16px;-webkit-border-radius:4px;-moz-border-radius:4px;-ms-border-radius:4px;border-radius:4px;">
-                        <a href="${text}" target="_blank"
+                        <a href="${text1}" target="_blank"
                             style="font-family:'San Francisco', Segoe, Roboto, Arial, Helvetica, sans-serif;display:inline-block;vertical-align:top;font-size:17px;line-height:24px;color:#333333;font-weight:normal;text-decoration:none;text-align:center;padding:16px 36px 16px;-webkit-border-radius:4px;-moz-border-radius:4px;-ms-border-radius:4px;border-radius:4px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;max-width:100%;">
                             ${text}
                         </a>

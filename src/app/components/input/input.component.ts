@@ -19,6 +19,7 @@ interface IComponent {
   [key: string]: {
     component: Type<any>
     name: string
+    height: number
   }
 }
 
@@ -28,6 +29,7 @@ interface IBlock {
   inputs: Record<string, unknown>
   outputs: any
   code: string
+  height: number
 }
 @Component({
   selector: 'app-input',
@@ -42,47 +44,58 @@ export class InputComponent {
   components: IComponent = {
     LittleTitleComponent: {
       component: LittleTitleComponent,
-      name: 'Little Title'
+      name: 'Little Title',
+      height: 1
     },
     AccentTextWithBackgroundComponent: {
       component: AccentTextWithBackgroundComponent,
-      name: 'Accent text with background'
+      name: 'Accent text with background',
+      height: 2
     },
     TextLineComponent: {
       component: TextLineComponent,
-      name: 'Text line'
+      name: 'Text line',
+      height: 1
     },
     PreheaderComponent: {
       component: PreheaderComponent,
-      name: 'Preheader'
+      name: 'Preheader',
+      height: 2
     },
     HeaderTitleComponent: {
       component: HeaderTitleComponent,
-      name: 'HeaderTitle'
+      name: 'HeaderTitle',
+      height: 2
     },
     HeaderTextComponent: {
       component: HeaderTextComponent,
-      name: 'HeaderTitle'
+      name: 'HeaderTitle',
+      height: 2
     },
     ContentTextComponent: {
       component: ContentTextComponent,
-      name: 'ContentText'
+      name: 'ContentText',
+      height: 2
     },
     AccentTextWithBorderComponent: {
       component: AccentTextWithBorderComponent,
-      name: 'AccentTextWithBorder'
+      name: 'AccentTextWithBorder',
+      height: 2
     },
     ImageComponent: {
       component: ImageComponent,
-      name: 'Image'
+      name: 'Image',
+      height: 2
     },
     ButtonWithBackgroundComponent: {
       component: ButtonWithBackgroundComponent,
-      name: 'Button. Верхнее поле - текст, нижнее - ссылка'
+      name: 'Button. Верхнее поле - текст, нижнее - ссылка',
+      height: 2
     },
     FooterTwoComponent: {
       component: FooterTwoComponent,
-      name: 'FooterTwo - напиши сюда ссылку на условия акции'
+      name: 'FooterTwo - напиши сюда ссылку на условия акции',
+      height: 2
     },
   }
 
@@ -90,7 +103,7 @@ export class InputComponent {
 
   order = new Map();
 
-  addComponent = (block: { name: string, component: Type<any> }) => {
+  addComponent = (block: { name: string, component: Type<any>, height: number }) => {
 
     const order = this.blocks.length;
     this.order.set(order, order);
@@ -103,7 +116,8 @@ export class InputComponent {
           this.onGenerateCode.emit(this.generateCode(changed));
         },
       },
-      code: ''
+      code: '',
+      height: block.height
     })
     this.onGenerateCode.emit(this.generateCode({ order: order, text: '' }));
   }
