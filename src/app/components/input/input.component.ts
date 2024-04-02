@@ -95,7 +95,7 @@ export class InputComponent {
     },
     FooterOneComponent: {
       component: FooterOneComponent,
-      name: 'FooterOne',
+      name: 'FooterOne - футер добавлен в код',
       height: 1
     },
     FooterTwoComponent: {
