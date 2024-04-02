@@ -1,7 +1,6 @@
-:host {
+pre {
   display: block;
   border: 2px solid black;
-  pre {
-    white-space: pre-wrap;
-  }
+  white-space: pre-wrap;
+  word-break: break-all;
 }

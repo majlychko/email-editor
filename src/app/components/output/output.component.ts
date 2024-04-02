@@ -1,9 +1,11 @@
 import { Component, Input, SimpleChanges } from '@angular/core';
+import { ClipboardModule } from '@angular/cdk/clipboard';
+import { TuiButtonModule } from '@taiga-ui/core';
 
 @Component({
   selector: 'app-output',
   standalone: true,
-  imports: [],
+  imports: [ClipboardModule, TuiButtonModule],
   templateUrl: './output.component.html',
   styleUrl: './output.component.scss'
 })
