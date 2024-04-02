@@ -11,6 +11,8 @@ import { AccentTextWithBorderComponent } from '@components/dynamic/accent-text-w
 import { ButtonWithBackgroundComponent } from '@components/dynamic/button-with-background/button-with-background.component';
 import { FooterOneComponent } from '@components/dynamic/footer-one/footer-one.component';
 import { FooterTwoComponent } from '@components/dynamic/footer-two/footer-two.component';
+import { FooterThreeComponent } from '@components/dynamic/footer-three/footer-three.component';
+import { FooterFourComponent } from '@components/dynamic/footer-four/footer-four.component';
 import { ImageComponent } from '@components/dynamic/image/image.component';
 import { TuiButtonModule, TuiSvgModule } from '@taiga-ui/core';
 import { TuiTilesModule } from '@taiga-ui/kit';
@@ -101,6 +103,16 @@ export class InputComponent {
     FooterTwoComponent: {
       component: FooterTwoComponent,
       name: 'FooterTwo - ссылка на условия акции',
+      height: 1
+    },
+    FooterThreeComponent: {
+      component: FooterThreeComponent,
+      name: 'FooterThree - футер добавлен в код',
+      height: 1
+    },
+    FooterFourComponent: {
+      component: FooterFourComponent,
+      name: 'FooterFour - ссылка на условия акции',
       height: 1
     },
   }
