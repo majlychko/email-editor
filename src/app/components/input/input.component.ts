@@ -9,6 +9,7 @@ import { HeaderTextComponent } from '@components/dynamic/header-text/header-text
 import { ContentTextComponent } from '@components/dynamic/content-text/content-text.component';
 import { AccentTextWithBorderComponent } from '@components/dynamic/accent-text-with-border/accent-text-with-border.component';
 import { ButtonWithBackgroundComponent } from '@components/dynamic/button-with-background/button-with-background.component';
+import { FooterOneComponent } from '@components/dynamic/footer-one/footer-one.component';
 import { FooterTwoComponent } from '@components/dynamic/footer-two/footer-two.component';
 import { ImageComponent } from '@components/dynamic/image/image.component';
 import { TuiButtonModule, TuiSvgModule } from '@taiga-ui/core';
@@ -75,7 +76,7 @@ export class InputComponent {
     ContentTextComponent: {
       component: ContentTextComponent,
       name: 'ContentText',
-      height: 1
+      height: 2
     },
     AccentTextWithBorderComponent: {
       component: AccentTextWithBorderComponent,
@@ -92,9 +93,14 @@ export class InputComponent {
       name: 'Button',
       height: 2
     },
+    FooterOneComponent: {
+      component: FooterOneComponent,
+      name: 'FooterOne',
+      height: 1
+    },
     FooterTwoComponent: {
       component: FooterTwoComponent,
-      name: 'FooterTwo - напиши сюда ссылку на условия акции',
+      name: 'FooterTwo - ссылка на условия акции',
       height: 1
     },
   }
