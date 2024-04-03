@@ -7,6 +7,7 @@ import { PreheaderComponent } from '@components/dynamic/preheader/preheader.comp
 import { HeaderTitleComponent } from '@components/dynamic/header-title/header-title.component';
 import { HeaderTextComponent } from '@components/dynamic/header-text/header-text.component';
 import { ContentTextComponent } from '@components/dynamic/content-text/content-text.component';
+import { ContentTitleComponent } from '@components/dynamic/content-title/content-title.component';
 import { AccentTextWithBorderComponent } from '@components/dynamic/accent-text-with-border/accent-text-with-border.component';
 import { ButtonWithBackgroundComponent } from '@components/dynamic/button-with-background/button-with-background.component';
 import { FooterOneComponent } from '@components/dynamic/footer-one/footer-one.component';
@@ -126,6 +127,11 @@ export class InputComponent {
       component: AlarmBlockComponent,
       name: 'AlarmBlock',
       height: 2
+    },
+    ContentTitleComponent: {
+      component: ContentTitleComponent,
+      name: 'ContentTitle',
+      height: 1
     },
   }
 
