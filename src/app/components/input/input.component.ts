@@ -14,6 +14,7 @@ import { FooterTwoComponent } from '@components/dynamic/footer-two/footer-two.co
 import { FooterThreeComponent } from '@components/dynamic/footer-three/footer-three.component';
 import { FooterFourComponent } from '@components/dynamic/footer-four/footer-four.component';
 import { FooterFiveComponent } from '@components/dynamic/footer-five/footer-five.component';
+import { AlarmBlockComponent } from '@components/dynamic/alarm-block/alarm-block.component';
 import { ImageComponent } from '@components/dynamic/image/image.component';
 import { TuiButtonModule, TuiSvgModule } from '@taiga-ui/core';
 import { TuiTilesModule } from '@taiga-ui/kit';
@@ -120,6 +121,11 @@ export class InputComponent {
       component: FooterFiveComponent,
       name: 'FooterFive - ссылка на условия акции',
       height: 1
+    },
+    AlarmBlockComponent: {
+      component: AlarmBlockComponent,
+      name: 'AlarmBlock',
+      height: 2
     },
   }
 
