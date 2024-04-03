@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { DynamicBlock } from '../dynamic-block';
 
 @Component({
-  selector: 'app-preheader',
+  selector: 'app-footer-four',
   standalone: true,
   imports: [],
   templateUrl: './footer-four.component.html',

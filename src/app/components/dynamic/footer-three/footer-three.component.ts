@@ -2,7 +2,7 @@ import { AfterContentInit, Component } from '@angular/core';
 import { DynamicBlock } from '../dynamic-block';
 
 @Component({
-  selector: 'app-text-line',
+  selector: 'app-footer-three',
   standalone: true,
   imports: [],
   templateUrl: './footer-three.component.html',

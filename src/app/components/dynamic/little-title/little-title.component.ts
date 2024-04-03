@@ -19,7 +19,7 @@ export class LittleTitleComponent extends DynamicBlock {
             ${text}
         </td>
     </tr>
-    <!-- end: little title -->
+    <!-- end: little title -->  
     `
     this.onChange.emit({ order: this.order, text: template })
   }
