@@ -2,7 +2,7 @@
            class="tiles"
            [debounce]="200"
            [(order)]="order"
-           (orderChange)=onDrag()>
+           (orderChange)=onDrag($event)>
   <tui-tile
             *ngFor="let block of blocks; let index = index"
             class="tile"

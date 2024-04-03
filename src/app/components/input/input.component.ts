@@ -140,21 +140,41 @@ export class InputComponent {
     this.onGenerateCode.emit(this.generateCode({ order: order, text: '' }));
   }
   removeComponent = (index: number) => {
+    const updatedOrder: [number, number][] = [];
+    const position = this.order.get(index)
+
     this.blocks.splice(index, 1);
-    this.order.delete(this.order.get(index))
+    this.order.delete(index)
+
+    this.order.forEach((key, value) => {
+      updatedOrder.push([value >= index ? value - 1 : value, key > position ? key - 1 : key]);
+    })
+
+    this.order = new Map (updatedOrder)
+    const code = this.updateCode(this.order);
+    this.onGenerateCode.emit(code);
   }
 
   generateCode = (changed: { order: number, text: string }): string => {
     this.blocks[changed.order].code = changed.text;
-    let code = '';
-    this.order.forEach(value => code += this.blocks[value].code)
+    const code = this.updateCode(this.order);
     return code
   }
 
-  onDrag() {
-    let code = '';
-    this.order.forEach(value => code += this.blocks[value].code)
+  onDrag(e: Map<number, number>) {
+    const code = this.updateCode(e);
     this.onGenerateCode.emit(code);
+  }
+
+  updateCode = (order: Map<number, number>) => {
+    let code = '';
+    const sorted = ([...order].sort((a, b) => Number(a[1]) - Number(b[1])))
+
+    sorted.forEach((e) => {
+      code += this.blocks[e[0]].code
+    })
+
+    return code
   }
 }
 
