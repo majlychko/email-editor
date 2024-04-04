@@ -15,7 +15,7 @@ export class ImageComponent extends DynamicBlock {
     <!-- start: image -->
     <tr>
         <td align="center" style="padding-bottom:32px;">
-            <img src="${text}"
+            <img src="https://email.cdn-tinkoff.ru/email/images/${text}.png"
                 style="display:block;width:100%;max-width:536px;" border="0"
                 alt="" width="536">
         </td>
