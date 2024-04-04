@@ -88,7 +88,7 @@ export class InputComponent {
     AccentTextWithBorderComponent: {
       component: AccentTextWithBorderComponent,
       name: 'AccentTextWithBorder',
-      height: 1ч
+      height: 1
     },
     ImageComponent: {
       component: ImageComponent,
