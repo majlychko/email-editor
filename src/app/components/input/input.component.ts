@@ -19,6 +19,7 @@ import { FooterFiveComponent } from '@components/dynamic/footer-five/footer-five
 import { AlarmBlockComponent } from '@components/dynamic/alarm-block/alarm-block.component';
 import { PromoBlockComponent } from '@components/dynamic/promo-block/promo-block.component';
 import { EmptyPreheaderComponent } from '@components/dynamic/empty-preheader/empty-preheader.component';
+import { BtnsComponent } from '@components/dynamic/btns/btns.component';
 import { ImageComponent } from '@components/dynamic/image/image.component';
 import { TuiButtonModule, TuiSvgModule } from '@taiga-ui/core';
 import { TuiTilesModule } from '@taiga-ui/kit';
@@ -149,6 +150,11 @@ export class InputComponent {
     EmptyPreheaderComponent: {
       component: EmptyPreheaderComponent,
       name: 'EmptyPreheader',
+      height: 2
+    },
+    BtnsComponent: {
+      component: BtnsComponent,
+      name: 'BtnsPreheader',
       height: 2
     },
   }
