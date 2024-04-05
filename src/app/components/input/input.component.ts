@@ -24,6 +24,7 @@ import { ImageComponent } from '@components/dynamic/image/image.component';
 import { ListComponent } from '@components/dynamic/list/list.component';
 import { ListLastComponent } from '@components/dynamic/list-last/list-last.component';
 import { ListNumComponent } from '@components/dynamic/list-num/list-num.component';
+import { ListNumLastComponent } from '@components/dynamic/list-num-last/list-num-last.component';
 import { TuiButtonModule, TuiSvgModule } from '@taiga-ui/core';
 import { TuiTilesModule } from '@taiga-ui/kit';
 import { ComponentOutletInjectorModule } from 'ng-dynamic-component';
@@ -173,6 +174,11 @@ export class InputComponent {
     ListNumComponent: {
       component: ListNumComponent,
       name: 'Введите элемент нумерованного списка (кроме последнего)',
+      height: 2
+    },
+    ListNumLastComponent: {
+      component: ListNumLastComponent,
+      name: 'Введите последний элемент нумерованного списка',
       height: 2
     },
   }
