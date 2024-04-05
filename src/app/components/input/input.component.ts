@@ -6,6 +6,7 @@ import { TextLineComponent } from '@components/dynamic/text-line/text-line.compo
 import { PreheaderComponent } from '@components/dynamic/preheader/preheader.component';
 import { HeaderTitleComponent } from '@components/dynamic/header-title/header-title.component';
 import { HeaderTextComponent } from '@components/dynamic/header-text/header-text.component';
+import { HeaderEndComponent } from '@components/dynamic/header-end/header-end.component';
 import { ContentTextComponent } from '@components/dynamic/content-text/content-text.component';
 import { ContentTitleComponent } from '@components/dynamic/content-title/content-title.component';
 import { AccentTextWithBorderComponent } from '@components/dynamic/accent-text-with-border/accent-text-with-border.component';
@@ -78,6 +79,11 @@ export class InputComponent {
     HeaderTextComponent: {
       component: HeaderTextComponent,
       name: 'HeaderTitle',
+      height: 1
+    },
+    HeaderEndComponent: {
+      component: HeaderEndComponent,
+      name: 'HeaderEnd',
       height: 1
     },
     ContentTextComponent: {

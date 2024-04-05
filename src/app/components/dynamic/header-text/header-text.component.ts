@@ -38,15 +38,6 @@ export class HeaderTextComponent extends DynamicBlock {
             </table>
         </td>
     </tr>
-    <!-- end: header text -->
-        </table>
-    </td>
-</tr>
-<!-- end: header -->
-
-<tr>
-    <td>
-        <table border="0" cellpadding="0" cellspacing="0" width="100%">    
     `
     this.onChange.emit({ order: this.order, text: template })
   }
