@@ -26,13 +26,12 @@ import { ListLastComponent } from '@components/dynamic/list-last/list-last.compo
 import { TuiButtonModule, TuiSvgModule } from '@taiga-ui/core';
 import { TuiTilesModule } from '@taiga-ui/kit';
 import { ComponentOutletInjectorModule } from 'ng-dynamic-component';
+import { DynamicListComponent } from '@components/dynamic/dynamic-list/dynamic-list.component';
 
 interface IComponent {
-  [key: string]: {
-    component: Type<any>
-    name: string
-    height: number
-  }
+  component: Type<any>
+  name: string
+  height: number
 }
 
 interface IBlock {
@@ -53,129 +52,124 @@ interface IBlock {
 export class InputComponent {
   @Output() onGenerateCode = new EventEmitter<string>();
 
-  components: IComponent = {
-    LittleTitleComponent: {
-      component: LittleTitleComponent,
-      name: 'Little Title',
-      height: 1
-    },
-    AccentTextWithBackgroundComponent: {
-      component: AccentTextWithBackgroundComponent,
-      name: 'Accent text with background',
-      height: 1
-    },
-    TextLineComponent: {
-      component: TextLineComponent,
-      name: 'Text line',
-      height: 1
-    },
-    PreheaderComponent: {
-      component: PreheaderComponent,
-      name: 'Preheader',
-      height: 1
-    },
-    HeaderTitleComponent: {
-      component: HeaderTitleComponent,
-      name: 'HeaderTitle',
-      height: 1
-    },
-    HeaderTextComponent: {
-      component: HeaderTextComponent,
-      name: 'HeaderTitle',
-      height: 1
-    },
-    HeaderEndComponent: {
-      component: HeaderEndComponent,
-      name: 'HeaderEnd',
-      height: 1
-    },
-    ContentTextComponent: {
-      component: ContentTextComponent,
-      name: 'ContentText',
-      height: 2
-    },
-    AccentTextWithBorderComponent: {
-      component: AccentTextWithBorderComponent,
-      name: 'AccentTextWithBorder',
-      height: 1
-    },
-    ImageComponent: {
-      component: ImageComponent,
-      name: 'Image - название файла изображения',
-      height: 1
-    },
-    ButtonWithBackgroundComponent: {
-      component: ButtonWithBackgroundComponent,
-      name: 'Button',
-      height: 2
-    },
-    FooterOneComponent: {
-      component: FooterOneComponent,
-      name: 'FooterOne - футер добавлен в код',
-      height: 1
-    },
-    FooterTwoComponent: {
-      component: FooterTwoComponent,
-      name: 'FooterTwo - ссылка на условия акции',
-      height: 1
-    },
-    FooterThreeComponent: {
-      component: FooterThreeComponent,
-      name: 'FooterThree - футер добавлен в код',
-      height: 1
-    },
-    FooterFourComponent: {
-      component: FooterFourComponent,
-      name: 'FooterFour - ссылка на условия акции',
-      height: 1
-    },
-    FooterFiveComponent: {
-      component: FooterFiveComponent,
-      name: 'FooterFive - ссылка на условия акции',
-      height: 1
-    },
-    AlarmBlockComponent: {
-      component: AlarmBlockComponent,
-      name: 'AlarmBlock',
-      height: 2
-    },
-    ContentTitleComponent: {
+  components: IComponent[] = [
+    {
       component: ContentTitleComponent,
       name: 'ContentTitle',
       height: 1
     },
-    PromoBlockComponent: {
+    {
+      component: ContentTextComponent,
+      name: 'ContentText',
+      height: 2
+    },
+    {
+      component: PreheaderComponent,
+      name: 'Preheader',
+      height: 1
+    },
+    {
+      component: HeaderTitleComponent,
+      name: 'HeaderTitle',
+      height: 1
+    },
+    {
+      component: HeaderTextComponent,
+      name: 'HeaderText',
+      height: 1
+    },
+    {
+      component: HeaderEndComponent,
+      name: 'Обязательный блок после хедера',
+      height: 1
+    },
+    {
+      component: LittleTitleComponent,
+      name: 'Little Title',
+      height: 1
+    },
+    {
+      component: AccentTextWithBackgroundComponent,
+      name: 'Accent text with background',
+      height: 1
+    },
+    {
+      component: AccentTextWithBorderComponent,
+      name: 'AccentTextWithBorder',
+      height: 1
+    },
+    {
+      component: TextLineComponent,
+      name: 'Text line',
+      height: 1
+    },
+    {
+      component: ImageComponent,
+      name: 'Image - название файла изображения',
+      height: 1
+    },
+    {
+      component: ButtonWithBackgroundComponent,
+      name: 'Button',
+      height: 2
+    },
+    {
+      component: FooterOneComponent,
+      name: 'FooterOne - футер добавлен в код',
+      height: 1
+    },
+    {
+      component: FooterTwoComponent,
+      name: 'FooterTwo - ссылка на условия акции',
+      height: 1
+    },
+    {
+      component: FooterThreeComponent,
+      name: 'FooterThree - футер добавлен в код',
+      height: 1
+    },
+    {
+      component: FooterFourComponent,
+      name: 'FooterFour - ссылка на условия акции',
+      height: 1
+    },
+    {
+      component: FooterFiveComponent,
+      name: 'FooterFive - ссылка на условия акции',
+      height: 1
+    },
+    {
+      component: AlarmBlockComponent,
+      name: 'AlarmBlock',
+      height: 2
+    },
+    {
       component: PromoBlockComponent,
       name: 'PromoBlock',
       height: 2
     },
-    EmptyPreheaderComponent: {
+    {
       component: EmptyPreheaderComponent,
       name: 'EmptyPreheader',
       height: 1
     },
-    BtnsComponent: {
+    {
       component: BtnsComponent,
       name: 'BtnsPreheader',
       height: 1
     },
-    ListComponent: {
-      component: ListComponent,
-      name: 'Введите элемент списка (кроме последнего)',
-      height: 1
+    {
+      component: DynamicListComponent,
+      name: 'Список',
+      height: 3
     },
-    ListLastComponent: {
-      component: ListLastComponent,
-      name: 'Введите последний элемент списка',
-      height: 1
-    },
-  }
+  ]
 
   blocks: IBlock[] = []
 
   order = new Map();
 
-  addComponent = (block: { name: string, component: Type<any>, height: number }) => {
+  addComponent = (block: IComponent) => {
 
     const order = this.blocks.length;
     this.order.set(order, order);
@@ -204,7 +198,7 @@ export class InputComponent {
       updatedOrder.push([value >= index ? value - 1 : value, key > position ? key - 1 : key]);
     })
 
-    this.order = new Map (updatedOrder)
+    this.order = new Map(updatedOrder)
     const code = this.updateCode(this.order);
     this.onGenerateCode.emit(code);
   }

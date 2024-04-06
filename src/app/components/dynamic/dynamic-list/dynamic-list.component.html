@@ -1,0 +1,19 @@
+<form [formGroup]="listForm" class="overflow-auto mt-4 mb-4">
+
+  <div class="flex gap-4 mb-4">
+    <div *ngFor="let bullet of bullets">
+      <label>
+        <input type="radio" [value]="bullet.id" formControlName="bullets">{{bullet.name}}
+      </label>
+    </div>
+  </div>
+
+  <div formArrayName="items">
+    <div class="flex justify-between" *ngFor="let item of formData?.controls; let i = index">
+      <input class="border-2 w-full mb-2" type="text" [formControlName]="i">
+      <tui-svg class="delete" src="tuiIconX" (click)="deleteItem(i)"></tui-svg>
+    </div>
+  </div>
+  <button tuiButton appearance="secondary" size="s" type="button" (click)="addItem()">Добавить элемент списка</button>
+
+</form>
