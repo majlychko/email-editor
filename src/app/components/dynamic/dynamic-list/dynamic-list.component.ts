@@ -92,7 +92,7 @@ export class DynamicListComponent extends DynamicBlock {
     const list = items.reduce(
       (acc, item, index) => acc + `
       <tr>
-      <td style="padding:4px 0 ${index === items.length ? 12 : 4}px;">
+      <td style="padding:4px 0 ${index === items.length -1 ? 12 : 4}px;">
           <table border="0" cellpadding="0" cellspacing="0"
               width="100%">
               <tr>
