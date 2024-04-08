@@ -11,6 +11,7 @@ import { ContentTextComponent } from '@components/dynamic/content-text/content-t
 import { ContentTitleComponent } from '@components/dynamic/content-title/content-title.component';
 import { AccentTextWithBorderComponent } from '@components/dynamic/accent-text-with-border/accent-text-with-border.component';
 import { ButtonWithBackgroundComponent } from '@components/dynamic/button-with-background/button-with-background.component';
+import { ButtonWithGifComponent } from '@components/dynamic/button-with-gif/button-with-gif.component';
 import { FooterOneComponent } from '@components/dynamic/footer-one/footer-one.component';
 import { FooterTwoComponent } from '@components/dynamic/footer-two/footer-two.component';
 import { FooterThreeComponent } from '@components/dynamic/footer-three/footer-three.component';
@@ -109,7 +110,12 @@ export class InputComponent {
     },
     {
       component: ButtonWithBackgroundComponent,
-      name: 'Button',
+      name: 'Кнопка',
+      height: 2
+    },
+    {
+      component: ButtonWithGifComponent, 
+      name: 'Кнопка с гиф',
       height: 2
     },
     {
