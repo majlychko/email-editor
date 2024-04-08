@@ -21,6 +21,7 @@ import { PromoBlockComponent } from '@components/dynamic/promo-block/promo-block
 import { EmptyPreheaderComponent } from '@components/dynamic/empty-preheader/empty-preheader.component';
 import { BtnsComponent } from '@components/dynamic/btns/btns.component';
 import { ImageComponent } from '@components/dynamic/image/image.component';
+import { SquareImageComponent } from '@components/dynamic/square-image/square-image.component';
 import { TuiButtonModule, TuiSvgModule } from '@taiga-ui/core';
 import { TuiTilesModule } from '@taiga-ui/kit';
 import { ComponentOutletInjectorModule } from 'ng-dynamic-component';
@@ -159,6 +160,11 @@ export class InputComponent {
     {
       component: DynamicListComponent,
       name: 'Список',
+      height: 3
+    },
+    {
+      component: SquareImageComponent,
+      name: 'Блок с маленькой квадратной картинкой',
       height: 3
     },
   ]
