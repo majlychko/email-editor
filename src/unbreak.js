@@ -1,4 +1,3 @@
-
 Vk = [{
   pattern: /(?<!\u00A0) —/g,
   replaceWith: " —"
