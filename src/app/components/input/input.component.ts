@@ -23,6 +23,7 @@ import { EmptyPreheaderComponent } from '@components/dynamic/empty-preheader/emp
 import { BtnsComponent } from '@components/dynamic/btns/btns.component';
 import { ImageComponent } from '@components/dynamic/image/image.component';
 import { SquareImageComponent } from '@components/dynamic/square-image/square-image.component';
+import { OperatorComponent } from '@components/dynamic/operator/operator.component';
 import { TuiButtonModule, TuiSvgModule } from '@taiga-ui/core';
 import { TuiTilesModule } from '@taiga-ui/kit';
 import { ComponentOutletInjectorModule } from 'ng-dynamic-component';
@@ -172,6 +173,11 @@ export class InputComponent {
       component: SquareImageComponent,
       name: 'Блок с маленькой квадратной картинкой',
       height: 3
+    },
+    {
+      component: OperatorComponent,
+      name: 'Условные операторы',
+      height: 1
     },
   ]
 
