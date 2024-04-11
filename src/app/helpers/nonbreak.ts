@@ -1,118 +1,115 @@
 const patterns: { pattern: RegExp, replaceWith: string }[] = [{
-  pattern: /(?<!\u00A0) —/g,
-  replaceWith: " —"
+  pattern: /(?<!&nbsp;) —/g,
+  replaceWith: "&nbsp;—"
 }, {
-  pattern: /(?<!\u2060)—(?!\u2060)/g,
-  replaceWith: "⁠—⁠"
+  pattern: /(?<!ALL&nbsp;)ALL /g,
+  replaceWith: "ALL&nbsp;"
 }, {
-  pattern: /(?<!ALL\u00A0)ALL /g,
-  replaceWith: "ALL "
+  pattern: /(?<!Tinkoff&nbsp;)Tinkoff Pro/g,
+  replaceWith: "Tinkoff&nbsp;Pro"
 }, {
-  pattern: /(?<!Tinkoff\u00A0)Tinkoff Pro/g,
-  replaceWith: "Tinkoff Pro"
+  pattern: /(?<!Tinkoff&nbsp;)Tinkoff Shop/g,
+  replaceWith: "Tinkoff&nbsp;Shop"
 }, {
-  pattern: /(?<!Tinkoff\u00A0)Tinkoff Shop/g,
-  replaceWith: "Tinkoff Shop"
+  pattern: /(?<!Tinkoff&nbsp;)Tinkoff Premium/g,
+  replaceWith: "Tinkoff&nbsp;Premium"
 }, {
-  pattern: /(?<!Tinkoff\u00A0)Tinkoff Premium/g,
-  replaceWith: "Tinkoff Premium"
+  pattern: /(?<!Tinkoff&nbsp;)Tinkoff Private/g,
+  replaceWith: "Tinkoff&nbsp;Private"
 }, {
-  pattern: /(?<!Tinkoff\u00A0)Tinkoff Private/g,
-  replaceWith: "Tinkoff Private"
+  pattern: /(?<!Tinkoff&nbsp;)Tinkoff Black/g,
+  replaceWith: "Tinkoff&nbsp;Black"
 }, {
-  pattern: /(?<!Tinkoff\u00A0)Tinkoff Black/g,
-  replaceWith: "Tinkoff Black"
+  pattern: /(?<!Tinkoff&nbsp;)Tinkoff ID/g,
+  replaceWith: "Tinkoff&nbsp;ID"
 }, {
-  pattern: /(?<!Tinkoff\u00A0)Tinkoff ID/g,
-  replaceWith: "Tinkoff ID"
+  pattern: /(?<!Tinkoff&nbsp;)Tinkoff Pay/g,
+  replaceWith: "Tinkoff&nbsp;Pay"
 }, {
-  pattern: /(?<!Tinkoff\u00A0)Tinkoff Pay/g,
-  replaceWith: "Tinkoff Pay"
+  pattern: /(?<!Тинькофф&nbsp;)Тинькофф Платинум/g,
+  replaceWith: "Тинькофф&nbsp;Платинум"
 }, {
-  pattern: /(?<!Тинькофф\u00A0)Тинькофф Платинум/g,
-  replaceWith: "Тинькофф Платинум"
+  pattern: /(?<!Тинькофф&nbsp;)Тинькофф Сторис/g,
+  replaceWith: "Тинькофф&nbsp;Сторис"
 }, {
-  pattern: /(?<!Тинькофф\u00A0)Тинькофф Сторис/g,
-  replaceWith: "Тинькофф Сторис"
+  pattern: /(?<!Тинькофф&nbsp;)Тинькофф Страхование/g,
+  replaceWith: "Тинькофф&nbsp;Страхование"
 }, {
-  pattern: /(?<!Тинькофф\u00A0)Тинькофф Страхование/g,
-  replaceWith: "Тинькофф Страхование"
+  pattern: /(?<!Тинькофф&nbsp;)Тинькофф Бизнес/g,
+  replaceWith: "Тинькофф&nbsp;Бизнес"
 }, {
-  pattern: /(?<!Тинькофф\u00A0)Тинькофф Бизнес/g,
-  replaceWith: "Тинькофф Бизнес"
+  pattern: /(?<!Тинькофф&nbsp;)Тинькофф Путешествия/g,
+  replaceWith: "Тинькофф&nbsp;Путешествия"
 }, {
-  pattern: /(?<!Тинькофф\u00A0)Тинькофф Путешествия/g,
-  replaceWith: "Тинькофф Путешествия"
+  pattern: /(?<!Тинькофф&nbsp;)Тинькофф Квест/g,
+  replaceWith: "Тинькофф&nbsp;Квест"
 }, {
-  pattern: /(?<!Тинькофф\u00A0)Тинькофф Квест/g,
-  replaceWith: "Тинькофф Квест"
+  pattern: /(?<!Тинькофф&nbsp;)Тинькофф Банк/g,
+  replaceWith: "Тинькофф&nbsp;Банк"
 }, {
-  pattern: /(?<!Тинькофф\u00A0)Тинькофф Банк/g,
-  replaceWith: "Тинькофф Банк"
+  pattern: /(?<!Тинькофф&nbsp;)Тинькофф Мобайл/g,
+  replaceWith: "Тинькофф&nbsp;Мобайл"
 }, {
-  pattern: /(?<!Тинькофф\u00A0)Тинькофф Мобайл/g,
-  replaceWith: "Тинькофф Мобайл"
+  pattern: /(?<!Тинькофф&nbsp;)Тинькофф Инвестиции/g,
+  replaceWith: "Тинькофф&nbsp;Инвестиции"
 }, {
-  pattern: /(?<!Тинькофф\u00A0)Тинькофф Инвестиции/g,
-  replaceWith: "Тинькофф Инвестиции"
+  pattern: /(?<!&nbsp;) →/g,
+  replaceWith: "&nbsp;→"
 }, {
-  pattern: /(?<!\u00A0) →/g,
-  replaceWith: " →"
+  pattern: /(?<!&nbsp;) ₽/g,
+  replaceWith: "&nbsp;₽"
 }, {
-  pattern: /(?<!\u00A0) ₽/g,
-  replaceWith: " ₽"
+  pattern: /(?<!&nbsp;) рублей/g,
+  replaceWith: "&nbsp;рублей"
 }, {
-  pattern: /(?<!\u00A0) рублей/g,
-  replaceWith: " рублей"
+  pattern: /(?<!&nbsp;) €/g,
+  replaceWith: "&nbsp;€"
 }, {
-  pattern: /(?<!\u00A0) €/g,
-  replaceWith: " €"
+  pattern: /(?<!&nbsp;) ¥/g,
+  replaceWith: "&nbsp;¥"
 }, {
-  pattern: /(?<!\u00A0) ¥/g,
-  replaceWith: " ¥"
+  pattern: /(?<!&nbsp;) 000/g,
+  replaceWith: "&nbsp;000"
 }, {
-  pattern: /(?<!\u00A0) 000/g,
-  replaceWith: " 000"
+  pattern: /(?<!&nbsp;) тыс/g,
+  replaceWith: "&nbsp;тыс"
 }, {
-  pattern: /(?<!\u00A0) тыс/g,
-  replaceWith: " тыс"
+  pattern: /(?<!&nbsp;) млн/g,
+  replaceWith: "&nbsp;млн"
 }, {
-  pattern: /(?<!\u00A0) млн/g,
-  replaceWith: " млн"
+  pattern: /(?<!&nbsp;) млрд/g,
+  replaceWith: "&nbsp;млрд"
 }, {
-  pattern: /(?<!\u00A0) млрд/g,
-  replaceWith: " млрд"
+  pattern: /(?<!&nbsp;) год/g,
+  replaceWith: "&nbsp;год"
 }, {
-  pattern: /(?<!\u00A0) год/g,
-  replaceWith: " год"
+  pattern: /(?<!&nbsp;)( бы)(?=\s|\.|,|;|:|\?|!|$)/g,
+  replaceWith: "&nbsp;бы"
 }, {
-  pattern: /(?<!\u00A0)( бы)(?=\s|\.|,|;|:|\?|!|$)/g,
-  replaceWith: " бы"
+  pattern: /(?<!&nbsp;)( ли)(?=\s|\.|,|;|:|\?|!|$)/g,
+  replaceWith: "&nbsp;ли"
 }, {
-  pattern: /(?<!\u00A0)( ли)(?=\s|\.|,|;|:|\?|!|$)/g,
-  replaceWith: " ли"
-}, {
-  pattern: /(?<!\u00A0)( же)(?=\s|\.|,|;|:|\?|!|$)/g,
-  replaceWith: " же"
+  pattern: /(?<!&nbsp;)( же)(?=\s|\.|,|;|:|\?|!|$)/g,
+  replaceWith: "&nbsp;же"
 }, {
   pattern: /(?<!\u2011)-/g,
   replaceWith: "‑"
 }, {
   pattern: /(?<!\S)(?!бы|ли|же)([а-яА-ЯёЁ0-9a-zA-Z]{1,2})\s/g,
-  replaceWith: "$1 "
+  replaceWith: "$1&nbsp;"
 }, {
-  pattern: /(?<!\u00A0) \$/g,
-  replaceWith: " $"
+  pattern: /(?<!&nbsp;) \$/g,
+  replaceWith: "&nbsp;$"
 }, {
-  pattern: /(?<!\u00A0|\d) (?=\d+%)/g,
-  replaceWith: " "
+  pattern: /(?<!&nbsp;|\d) (?=\d+%)/g,
+  replaceWith: "&nbsp;"
 }, {
-  pattern: /(?<!\S)([А-ЯЁ])\.(?!\u00A0) /g,
-  replaceWith: "$1. "
+  pattern: /(?<!\S)([А-ЯЁ])\.(?!&nbsp;) /g,
+  replaceWith: "$1.&nbsp;"
 }]
 
 export const nonbreak = (text: string): string => {
-  const t = text.split(/({{.*?}})/);
+  const t = text.split(/([.*?])/);
   return t.forEach(( (e, r) => {
     e.startsWith("{{") || (t[r] = patterns.reduce(((e: any, t: any) => {
       const r = t.pattern, n = t.replaceWith;
