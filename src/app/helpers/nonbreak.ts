@@ -1,4 +1,4 @@
-Vk = [{
+const patterns: { pattern: RegExp, replaceWith: string }[] = [{
   pattern: /(?<!\u00A0) —/g,
   replaceWith: " —"
 }, {
@@ -110,16 +110,15 @@ Vk = [{
   pattern: /(?<!\S)([А-ЯЁ])\.(?!\u00A0) /g,
   replaceWith: "$1. "
 }]
-, zk = function(e) {
-  var t = e.split(/({{.*?}})/);
-  return t.forEach((function(e, r) {
-      e.startsWith("{{") || (t[r] = Vk.reduce((function(e, t) {
-          var r = t.pattern
-            , n = t.replaceWith;
-          return e.replace(r, n)
-      }
-      ), e))
+
+export const nonbreak = (text: string): string => {
+  const t = text.split(/({{.*?}})/);
+  return t.forEach(( (e, r) => {
+    e.startsWith("{{") || (t[r] = patterns.reduce(((e: any, t: any) => {
+      const r = t.pattern, n = t.replaceWith;
+      return e.replace(r, n)
+    }
+    ), e))
   }
-  )),
-  t.join("")
+  )), t.join("")
 }
