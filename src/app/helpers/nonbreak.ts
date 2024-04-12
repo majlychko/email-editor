@@ -92,9 +92,6 @@ const patterns: { pattern: RegExp, replaceWith: string }[] = [{
   pattern: /(?<!&nbsp;)( же)(?=\s|\.|,|;|:|\?|!|$)/g,
   replaceWith: "&nbsp;же"
 }, {
-  pattern: /(?<!\u2011)-/g,
-  replaceWith: "‑"
-}, {
   pattern: /(?<!\S)(?!бы|ли|же)([а-яА-ЯёЁ0-9a-zA-Z]{1,2})\s/g,
   replaceWith: "$1&nbsp;"
 }, {
@@ -109,7 +106,7 @@ const patterns: { pattern: RegExp, replaceWith: string }[] = [{
 }]
 
 export const nonbreak = (text: string): string => {
-  const t = text.split(/([.*?])/);
+  const t = text.split(/({{*?}})/);
   return t.forEach(( (e, r) => {
     e.startsWith("{{") || (t[r] = patterns.reduce(((e: any, t: any) => {
       const r = t.pattern, n = t.replaceWith;

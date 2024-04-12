@@ -19,6 +19,7 @@ import { FooterFourComponent } from '@components/dynamic/footer-four/footer-four
 import { FooterFiveComponent } from '@components/dynamic/footer-five/footer-five.component';
 import { AlarmBlockComponent } from '@components/dynamic/alarm-block/alarm-block.component';
 import { PromoBlockComponent } from '@components/dynamic/promo-block/promo-block.component';
+import { BringFriendComponent } from '@components/dynamic/bring-friend/bring-friend.component';
 import { EmptyPreheaderComponent } from '@components/dynamic/empty-preheader/empty-preheader.component';
 import { BtnsComponent } from '@components/dynamic/btns/btns.component';
 import { ImageComponent } from '@components/dynamic/image/image.component';
@@ -153,6 +154,11 @@ export class InputComponent {
     {
       component: PromoBlockComponent,
       name: 'PromoBlock',
+      height: 2
+    },
+    {
+      component: BringFriendComponent,
+      name: 'BringFriend',
       height: 2
     },
     {
