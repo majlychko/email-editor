@@ -106,9 +106,9 @@ const patterns: { pattern: RegExp, replaceWith: string }[] = [{
 }]
 
 export const nonbreak = (text: string): string => {
-  const t = text.split(/({{.*?}})/);
+  const t = text.split(/(\[\%.*?\%\])/);
   return t.forEach(((e, r) => {
-    if (e.startsWith("{{")) {
+    if (e.startsWith("[%")) {
       t[r] = e
     } else {
       (t[r] = patterns.reduce(((e: any, t: any) => {
