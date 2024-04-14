@@ -106,13 +106,6 @@ const patterns: { pattern: RegExp, replaceWith: string }[] = [{
 }]
 
 export const nonbreak = (text: string): string => {
-<<<<<<< HEAD
-  const t = text.split(/({{*?}})/);
-  return t.forEach(( (e, r) => {
-    e.startsWith("{{") || (t[r] = patterns.reduce(((e: any, t: any) => {
-      const r = t.pattern, n = t.replaceWith;
-      return e.replace(r, n)
-=======
   const t = text.split(/({{.*?}})/);
   return t.forEach(((e, r) => {
     if (e.startsWith("{{")) {
@@ -123,7 +116,6 @@ export const nonbreak = (text: string): string => {
         return e.replace(r, n)
       }
       ), e))
->>>>>>> refs/remotes/origin/main
     }
   }
   )), t.join("")
