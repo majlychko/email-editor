@@ -11,6 +11,7 @@ import { ContentTextComponent } from '@components/dynamic/content-text/content-t
 import { ContentTitleComponent } from '@components/dynamic/content-title/content-title.component';
 import { AccentTextWithBorderComponent } from '@components/dynamic/accent-text-with-border/accent-text-with-border.component';
 import { ButtonWithBackgroundComponent } from '@components/dynamic/button-with-background/button-with-background.component';
+import { ButtonWithGifComponent } from '@components/dynamic/button-with-gif/button-with-gif.component';
 import { FooterOneComponent } from '@components/dynamic/footer-one/footer-one.component';
 import { FooterTwoComponent } from '@components/dynamic/footer-two/footer-two.component';
 import { FooterThreeComponent } from '@components/dynamic/footer-three/footer-three.component';
@@ -18,13 +19,13 @@ import { FooterFourComponent } from '@components/dynamic/footer-four/footer-four
 import { FooterFiveComponent } from '@components/dynamic/footer-five/footer-five.component';
 import { AlarmBlockComponent } from '@components/dynamic/alarm-block/alarm-block.component';
 import { PromoBlockComponent } from '@components/dynamic/promo-block/promo-block.component';
+import { BringFriendComponent } from '@components/dynamic/bring-friend/bring-friend.component';
 import { EmptyPreheaderComponent } from '@components/dynamic/empty-preheader/empty-preheader.component';
 import { BtnsComponent } from '@components/dynamic/btns/btns.component';
 import { ImageComponent } from '@components/dynamic/image/image.component';
-import { ListComponent } from '@components/dynamic/list/list.component';
-import { ListLastComponent } from '@components/dynamic/list-last/list-last.component';
-import { ListNumComponent } from '@components/dynamic/list-num/list-num.component';
-import { ListNumLastComponent } from '@components/dynamic/list-num-last/list-num-last.component';
+import { SquareImageComponent } from '@components/dynamic/square-image/square-image.component';
+import { CircleImageComponent } from '@components/dynamic/circle-image/circle-image.component';
+import { OperatorComponent } from '@components/dynamic/operator/operator.component';
 import { TuiButtonModule, TuiSvgModule } from '@taiga-ui/core';
 import { TuiTilesModule } from '@taiga-ui/kit';
 import { ComponentOutletInjectorModule } from 'ng-dynamic-component';
@@ -112,7 +113,12 @@ export class InputComponent {
     },
     {
       component: ButtonWithBackgroundComponent,
-      name: 'Button',
+      name: 'Кнопка',
+      height: 2
+    },
+    {
+      component: ButtonWithGifComponent, 
+      name: 'Кнопка с гиф',
       height: 2
     },
     {
@@ -151,6 +157,11 @@ export class InputComponent {
       height: 2
     },
     {
+      component: BringFriendComponent,
+      name: 'BringFriend',
+      height: 2
+    },
+    {
       component: EmptyPreheaderComponent,
       name: 'EmptyPreheader',
       height: 1
@@ -164,6 +175,21 @@ export class InputComponent {
       component: DynamicListComponent,
       name: 'Список',
       height: 3
+    },
+    {
+      component: SquareImageComponent,
+      name: 'Блок с маленькой квадратной картинкой',
+      height: 3
+    },
+    {
+      component: CircleImageComponent,
+      name: 'Блок с маленькой круглой картинкой',
+      height: 3
+    },
+    {
+      component: OperatorComponent,
+      name: 'Условные операторы',
+      height: 1
     },
   ]
 
