@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { DynamicBlock } from '../dynamic-block';
+import { nonbreak } from 'src/app/helpers/nonbreak';
 
 @Component({
   selector: 'app-header-title',
@@ -16,7 +17,7 @@ export class HeaderTitleComponent extends DynamicBlock {
     <tr>
         <td class="textColor1" align="center"
             style="font-family: San Francisco, Segoe, Roboto, Arial, Helvetica, sans-serif;color:#333333;font-weight:600;font-size:26px;line-height:36px;letter-spacing:0;">
-            ${text}
+            ${nonbreak(text)}
         </td>
     </tr>
     <!-- end: header title -->

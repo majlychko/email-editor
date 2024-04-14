@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { DynamicBlock } from '../dynamic-block';
+import { nonbreak } from 'src/app/helpers/nonbreak';
 
 @Component({
   selector: 'app-content-title',
@@ -16,7 +17,7 @@ export class ContentTitleComponent extends DynamicBlock {
     <tr>
         <td class="textColor1"
             style="font-family:'San Francisco', Segoe, Roboto, Arial, Helvetica, sans-serif;font-size:24px;line-height:32px;color:#333333;font-weight:600;padding:12px 0 8px;">
-            ${text}
+            ${nonbreak(text)}
         </td>
     </tr>
     <!-- end: content title -->
