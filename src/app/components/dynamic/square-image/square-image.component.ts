@@ -10,7 +10,7 @@ import { DynamicBlock } from '../dynamic-block';
 })
 export class SquareImageComponent extends DynamicBlock {
 
-  onTextChange = (text: string, text1: string, text2: string) => {
+  onTextChange = (text: string, text1: string) => {
     const template = `
 
     <!-- start: block with little image -->
@@ -28,7 +28,7 @@ export class SquareImageComponent extends DynamicBlock {
                                         <img height="60" width="60"
                                             src="https://email.cdn-tinkoff.ru/email/images/${text1}.png"
                                             border="0"
-                                            alt="${text2}"
+                                            alt=""
                                             style="display:block;max-width:100%;">
                                     </a>
                                 </td>
