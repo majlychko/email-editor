@@ -179,7 +179,7 @@ export class InputComponent {
     {
       component: SquareImageComponent,
       name: 'Блок с маленькой квадратной картинкой',
-      height: 3
+      height: 2
     },
     {
       component: CircleImageComponent,
