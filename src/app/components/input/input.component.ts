@@ -169,7 +169,7 @@ export class InputComponent {
     },
     {
       component: BtnsComponent,
-      name: 'BtnsPreheader',
+      name: 'Лого скачать приложение',
       height: 1
     },
     {
