@@ -26,6 +26,7 @@ import { ImageComponent } from '@components/dynamic/image/image.component';
 import { SquareImageComponent } from '@components/dynamic/square-image/square-image.component';
 import { CircleImageComponent } from '@components/dynamic/circle-image/circle-image.component';
 import { OperatorComponent } from '@components/dynamic/operator/operator.component';
+import { SocialTelegramComponent } from '@components/dynamic/social-telegram/social-telegram.component';
 import { TuiButtonModule, TuiSvgModule } from '@taiga-ui/core';
 import { TuiTilesModule } from '@taiga-ui/kit';
 import { ComponentOutletInjectorModule } from 'ng-dynamic-component';
@@ -189,6 +190,11 @@ export class InputComponent {
     {
       component: OperatorComponent,
       name: 'Условные операторы',
+      height: 1
+    },
+    {
+      component: SocialTelegramComponent,
+      name: 'Отправить в Телеграм',
       height: 1
     },
   ]
