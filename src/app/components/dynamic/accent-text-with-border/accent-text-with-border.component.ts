@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { DynamicBlock } from '../dynamic-block';
+import { nonbreak } from 'src/app/helpers/nonbreak';
 
 @Component({
   selector: 'app-accent-text-with-border',
@@ -36,7 +37,7 @@ export class AccentTextWithBorderComponent extends DynamicBlock {
                             <tr>
                                 <td class="textColor1" align="center"
                                     style="font-family:'San Francisco', Segoe, Roboto, Arial, Helvetica, sans-serif;font-size:20px;line-height:28px;color:#333333;font-weight:normal;">
-                                    ${text}
+                                    ${nonbreak(text)}
                                 </td>
                             </tr>
                         </table>

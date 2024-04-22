@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { DynamicBlock } from '../dynamic-block';
+import { nonbreak } from 'src/app/helpers/nonbreak';
 
 @Component({
   selector: 'app-alarm-block',
@@ -31,13 +32,13 @@ export class AlarmBlockComponent extends DynamicBlock {
                             <tr>
                                 <td class="textColor1" align="center"
                                     style="font-family:'San Francisco', Segoe, Roboto, Arial, Helvetica, sans-serif;font-size:24px;line-height:32px;color:#333333;font-weight:600;padding:16px 0 8px;">
-                                    ${text}
+                                    ${nonbreak(text)}
                                 </td>
                             </tr>
                             <tr>
                                 <td class="textColor1" align="center"
                                     style="font-family:'San Francisco', Segoe, Roboto, Arial, Helvetica, sans-serif;font-size:17px;line-height:24px;color:#333333;font-weight:normal;padding:4px 0 16px;">
-                                    ${text1}
+                                    ${nonbreak(text1)}
                                 </td>
                             </tr>
                         </table>

@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { DynamicBlock } from '../dynamic-block';
-
+import { nonbreak } from 'src/app/helpers/nonbreak';
 @Component({
   selector: 'app-little-title',
   standalone: true,
@@ -16,7 +16,7 @@ export class LittleTitleComponent extends DynamicBlock {
     <tr>
         <td class="textColor1"
             style="font-family:'San Francisco', Segoe, Roboto, Arial, Helvetica, sans-serif;font-size:20px;line-height:28px;color:#333333;font-weight:600;padding:12px 0 8px;">
-            ${text}
+            ${nonbreak(text)}
         </td>
     </tr>
     <!-- end: little title -->  

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { DynamicBlock } from '../dynamic-block';
+import { nonbreak } from 'src/app/helpers/nonbreak';
 
 @Component({
   selector: 'app-square-image',
@@ -34,7 +35,7 @@ export class SquareImageComponent extends DynamicBlock {
                                 </td>
                                 <td valign="center" class="textColor1"
                                     style="font-family:'San Francisco', Segoe, Roboto, Arial, Helvetica, sans-serif;font-size:17px;line-height:24px;color:#333333;font-weight:normal;">
-                                    ${text}
+                                    ${nonbreak(text1)}
                                 </td>
                             </tr>
                         </table>

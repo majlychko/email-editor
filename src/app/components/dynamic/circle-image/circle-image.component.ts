@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { DynamicBlock } from '../dynamic-block';
-
+import { nonbreak } from 'src/app/helpers/nonbreak';
 @Component({
   selector: 'app-circle-image',
   standalone: true,
@@ -36,13 +36,13 @@ export class CircleImageComponent extends DynamicBlock {
                                         <tr>
                                             <td class="textColor1"
                                                 style="font-family:'San Francisco', Segoe, Roboto, Arial, Helvetica, sans-serif;font-size:17px;line-height:24px;color:#333333;font-weight:normal;">
-                                                ${text}
+                                                ${nonbreak(text)}
                                             </td>
                                         </tr>
                                         <tr>
                                             <td class="textColor3"
                                                 style="font-family:'San Francisco', Segoe, Roboto, Arial, Helvetica, sans-serif;font-size:15px;line-height:24px;color:#999999;font-weight:normal;">
-                                                ${text1}
+                                                ${nonbreak(text1)}
                                             </td>
                                         </tr>
                                     </table>

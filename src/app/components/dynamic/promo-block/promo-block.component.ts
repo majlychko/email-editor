@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { DynamicBlock } from '../dynamic-block';
+import { nonbreak } from 'src/app/helpers/nonbreak';
 
 @Component({
   selector: 'app-promo-block',
@@ -30,7 +31,7 @@ export class PromoBlockComponent extends DynamicBlock {
                             <tr>
                                 <td class="textColor3" align="center"
                                     style="font-family:'San Francisco', Segoe, Roboto, Arial, Helvetica, sans-serif;font-size:15px;line-height:24px;color:#999999;font-weight:normal;">
-                                    ${text1}
+                                    ${nonbreak(text1)}
                                 </td>
                             </tr>
                         </table>

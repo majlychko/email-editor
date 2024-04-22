@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { DynamicBlock } from '../dynamic-block';
+import { nonbreak } from 'src/app/helpers/nonbreak';
 
 @Component({
   selector: 'app-preheader',
@@ -17,7 +18,7 @@ export class PreheaderComponent extends DynamicBlock {
         <td class="textColor2" align="center"
             style="font-family:'San Francisco', Segoe, Roboto, Arial, Helvetica, sans-serif;
         color:#adadad;font-weight:normal;font-size:12px;line-height:20px;padding-bottom:12px;">
-            ${text}
+        ${nonbreak(text)}
         </td>
     </tr>
     <!-- end: preheader -->
