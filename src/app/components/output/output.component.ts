@@ -24,7 +24,7 @@ export class OutputComponent {
   }
 
   prefix = `
-  <html>
+<html>
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -32,7 +32,7 @@ export class OutputComponent {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="color-scheme" content="light dark">
     <meta name="supported-color-schemes" content="light dark">
-    <title>Тинькофф</title>
+    <title>Т-Банк</title>
 
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i"
         rel="stylesheet">
@@ -52,7 +52,7 @@ export class OutputComponent {
             word-wrap: normal;
             word-break: normal;
             hyphens: none;
-            font-family: 'San Francisco', Segoe, Roboto, Arial, Helvetica, sans-serif !important;
+            font-family: 'San Francisco', Segoe, Roboto, Arial, Helvetica, sans-serif !important;
         }
 
         .bullet {
@@ -247,6 +247,14 @@ export class OutputComponent {
         style="border-collapse:collapse;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;-moz-text-size-adjust:none;word-wrap:normal;word-break:normal;hyphens:none;">
         <tr>
             <td align="center" style="padding-bottom:48px;">
+                <!-- start: empty preheader -->
+                <!--[if !mso]><!-->
+                <div class="preheader" style="font-size:0px;color:transparent;opacity:0;"></div>
+                <div class="preheader" style="font-size:0px;color:transparent;opacity:0;">
+                    &#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240; 
+                </div>
+                <!--<![endif]-->
+                <!-- end: empty preheader -->
 
                 <!--[if gte mso 9]>
                 <table border="0" cellpadding="0" cellspacing="0" width="600">
@@ -269,6 +277,7 @@ export class OutputComponent {
                                 <tr>
                                     <td style="padding:20px 0 16px;">
                                         <table border="0" cellpadding="0" cellspacing="0" width="100%">
+
 
   `
 
