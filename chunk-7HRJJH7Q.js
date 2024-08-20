@@ -225,7 +225,7 @@ import{$a as te,Aa as $,Ab as Qe,B,Ba as fe,Bb as Ze,C as R,Ca as he,Cb as Xe,D 
     <!-- end: image -->
 
     `;this.onChange.emit({order:this.order,text:o})}}};e.\u0275fac=(()=>{let t;return function(o){return(t||(t=x(e)))(o||e)}})(),e.\u0275cmp=d({type:e,selectors:[["app-button-with-gif"]],standalone:!0,features:[h,f],decls:8,vars:0,consts:[["box",""],["box1",""],["type","text","rows","3",1,"w-full","border-2",3,"keyup"],["type","text",1,"w-full","border-2",3,"keyup"]],template:function(n,o){if(n&1){let a=v();s(0,"p"),w(1,"\u0422\u0435\u043A\u0441\u0442 \u043A\u043D\u043E\u043F\u043A\u0438"),c(),s(2,"textarea",2,0),u("keyup",function(){y(a);let l=p(3),D=p(7);return b(o.onTextChange(l.value,D.value))}),c(),s(4,"p"),w(5,"\u0421\u0441\u044B\u043B\u043A\u0430 \u043A\u043D\u043E\u043F\u043A\u0438"),c(),s(6,"textarea",3,1),u("keyup",function(){y(a);let l=p(3),D=p(7);return b(o.onTextChange(l.value,D.value))}),c()}}});let i=e;return i})();var gt=(()=>{let e=class e extends g{constructor(){super(...arguments),this.template=`
-<tr>
+                                <tr>
                                     <td style="padding-bottom:48px;">
                                         <table border="0" cellpadding="0" cellspacing="0" style="width:100%;">
                                             <tr>
@@ -242,16 +242,16 @@ import{$a as te,Aa as $,Ab as Qe,B,Ba as fe,Bb as Ze,C as R,Ca as he,Cb as Xe,D 
                                             <tr>
                                                 <td align="center" style="padding:8px 0 8px;">
                                                     <a target="_blank" href="https://www.tinkoff.ru/" class="textColor2"
-                                                        style="font-family:'San\xA0Francisco',\xA0Segoe,\xA0Roboto, Arial, Helvetica,\xA0sans-serif;color:#adadad;font-weight:normal;font-size:12px;line-height:20px;text-decoration:none;">Tinkoff.ru</a>
+                                                        style="font-family:'San Francisco', Segoe, Roboto, Arial, Helvetica, sans-serif;color:#adadad;font-weight:normal;font-size:12px;line-height:20px;text-decoration:none;">T-Bank.ru</a>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td align="center" style="padding-top:12px;">
                                                     <a 
-                                                        style="font-family:'San\xA0Francisco',\xA0Segoe,\xA0Roboto, Arial, Helvetica,\xA0sans-serif;display:inline-block;color:#336fee;text-decoration:none;">
-                                                        <img src="https://email.cdn-tinkoff.ru/email/images/logo@2x.png"
+                                                        style="font-family:'San Francisco', Segoe, Roboto, Arial, Helvetica, sans-serif;display:inline-block;color:#336fee;text-decoration:none;">
+                                                        <img src="https://email.cdn-tinkoff.ru/email/images/logo24.png"
                                                             style="display:block;" height="49" border="0"
-                                                            alt="Tinkoff.ru">
+                                                            alt="T-Bank.ru">
                                                     </a>
                                                 </td>
                                             </tr>
@@ -259,56 +259,6 @@ import{$a as te,Aa as $,Ab as Qe,B,Ba as fe,Bb as Ze,C as R,Ca as he,Cb as Xe,D 
                                     </td>
                                 </tr>
   `}ngAfterContentInit(){setTimeout(()=>{this.onChange.emit({order:this.order,text:this.template})},0)}};e.\u0275fac=(()=>{let t;return function(o){return(t||(t=x(e)))(o||e)}})(),e.\u0275cmp=d({type:e,selectors:[["app-footer-one"]],standalone:!0,features:[h,f],decls:1,vars:0,template:function(n,o){n&1&&_(0,"hr")}});let i=e;return i})();var yt=(()=>{let e=class e extends g{constructor(){super(...arguments),this.onTextChange=t=>{let n=`
-    <tr>
-    <td style="padding-bottom:48px;">
-        <table border="0" cellpadding="0" cellspacing="0" style="width:100%;">
-            <tr>
-                <td style="padding:40px 0 32px;">
-                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                        <tr>
-                            <td class="accentBorder" height="1" bgColor="#494a4c"
-                                style="background:url(https://email.cdn-tinkoff.ru/email/images/Line56.png);font-size:1px;line-height:1px;">
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-            <tr>
-                <td align="center" style="padding:8px 0 8px;">
-                    <a href="[% param.url_unsub_topic %]" class="textColor2" target="_blank"
-                        style="font-family:'San\xA0Francisco',\xA0Segoe,\xA0Roboto, Arial, Helvetica,\xA0sans-serif;color:#adadad;font-weight:normal;font-size:12px;line-height:20px;display:inline-block;text-decoration:none;">
-                        \u041E\u0442\u043F\u0438\u0441\u0430\u0442\u044C\u0441\u044F
-                    </a>
-                    <span class="textColor2"
-                        style="font-family:Arial,sans-serif !important;color:#adadad;font-weight:normal;font-size:12px;line-height:20px;display:inline-block;margin-left:2px;margin-right:2px;">
-                        &bull;
-                    </span>
-                    <a href="${t}" class="textColor2" target="_blank"
-                        style="font-family:'San\xA0Francisco',\xA0Segoe,\xA0Roboto, Arial, Helvetica,\xA0sans-serif;color:#adadad;font-weight:normal;font-size:12px;line-height:20px;display:inline-block;text-decoration:none;">
-                        \u0423\u0441\u043B\u043E\u0432\u0438\u044F \u0430\u043A\u0446\u0438\u0438
-                    </a>
-                </td>
-            </tr>
-            <tr>
-                <td align="center" style="padding:8px 0 8px;">
-                    <a target="_blank" href="https://www.tinkoff.ru/" class="textColor2"
-                        style="font-family:'San\xA0Francisco',\xA0Segoe,\xA0Roboto, Arial, Helvetica,\xA0sans-serif;color:#adadad;font-weight:normal;font-size:12px;line-height:20px;text-decoration:none;">Tinkoff.ru</a>
-                </td>
-            </tr>
-            <tr>
-                <td align="center" style="padding-top:24px;">
-                    <a 
-                        style="font-family:'San\xA0Francisco',\xA0Segoe,\xA0Roboto, Arial, Helvetica,\xA0sans-serif;display:inline-block;color:#336fee;text-decoration:none;">
-                        <img src="https://email.cdn-tinkoff.ru/email/images/logo@2x.png"
-                            style="display:block;" height="49" border="0"
-                            alt="Tinkoff.ru">
-                    </a>
-                </td>
-            </tr>
-        </table>
-    </td>
-</tr>
-    `;this.onChange.emit({order:this.order,text:n})}}};e.\u0275fac=(()=>{let t;return function(o){return(t||(t=x(e)))(o||e)}})(),e.\u0275cmp=d({type:e,selectors:[["app-footer-two"]],standalone:!0,features:[h,f],decls:2,vars:0,consts:[["box",""],["type","text",1,"w-full","border-2",3,"keyup"]],template:function(n,o){if(n&1){let a=v();s(0,"textarea",1,0),u("keyup",function(){y(a);let l=p(1);return b(o.onTextChange(l.value))}),c()}}});let i=e;return i})();var bt=(()=>{let e=class e extends g{constructor(){super(...arguments),this.template=`
 <tr>
                                     <td style="padding-bottom:48px;">
                                         <table border="0" cellpadding="0" cellspacing="0" style="width:100%;">
@@ -325,17 +275,75 @@ import{$a as te,Aa as $,Ab as Qe,B,Ba as fe,Bb as Ze,C as R,Ca as he,Cb as Xe,D 
                                             </tr>
                                             <tr>
                                                 <td align="center" style="padding:8px 0 8px;">
-                                                    <a target="_blank" href="https://www.tinkoff.ru/" class="textColor2"
-                                                        style="font-family:'San\xA0Francisco',\xA0Segoe,\xA0Roboto, Arial, Helvetica,\xA0sans-serif;color:#adadad;font-weight:normal;font-size:12px;line-height:20px;text-decoration:none;">Tinkoff.ru</a>
+                                                    <a href="[% param.url_unsub_topic %]" class="textColor2" target="_blank"
+                                                        style="font-family:'San Francisco', Segoe, Roboto, Arial, Helvetica, sans-serif;color:#adadad;font-weight:normal;font-size:12px;line-height:20px;display:inline-block;text-decoration:none;">
+                                                        \u041E\u0442\u043F\u0438\u0441\u0430\u0442\u044C\u0441\u044F
+                                                    </a>
+                                                    <span class="textColor2"
+                                                        style="font-family:Arial,sans-serif !important;color:#adadad;font-weight:normal;font-size:12px;line-height:20px;display:inline-block;margin-left:2px;margin-right:2px;">
+                                                        &bull;
+                                                    </span>
+                                                    <a href="${t}" class="textColor2" target="_blank"
+                                                        style="font-family:'San Francisco', Segoe, Roboto, Arial, Helvetica, sans-serif;color:#adadad;font-weight:normal;font-size:12px;line-height:20px;display:inline-block;text-decoration:none;">
+                                                        \u0423\u0441\u043B\u043E\u0432\u0438\u044F \u0430\u043A\u0446\u0438\u0438
+                                                    </a>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td align="center" style="padding-top:12px;">
+                                                <td align="center" style="padding:8px 0 8px;">
+                                                    <a target="_blank" href="https://www.tinkoff.ru/" class="textColor2"
+                                                        style="font-family:'San Francisco', Segoe, Roboto, Arial, Helvetica, sans-serif;color:#adadad;font-weight:normal;font-size:12px;line-height:20px;text-decoration:none;">T-Bank.ru</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" style="padding-top:24px;">
                                                     <a 
-                                                        style="font-family:'San\xA0Francisco',\xA0Segoe,\xA0Roboto, Arial, Helvetica,\xA0sans-serif;display:inline-block;color:#336fee;text-decoration:none;">
-                                                        <img src="https://email.cdn-tinkoff.ru/email/images/logo@2x.png"
+                                                        style="font-family:'San Francisco', Segoe, Roboto, Arial, Helvetica, sans-serif;display:inline-block;color:#336fee;text-decoration:none;">
+                                                        <img src="https://email.cdn-tinkoff.ru/email/images/logo24.png"
                                                             style="display:block;" height="49" border="0"
-                                                            alt="Tinkoff.ru">
+                                                            alt="T-Bank.ru">
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+    `;this.onChange.emit({order:this.order,text:n})}}};e.\u0275fac=(()=>{let t;return function(o){return(t||(t=x(e)))(o||e)}})(),e.\u0275cmp=d({type:e,selectors:[["app-footer-two"]],standalone:!0,features:[h,f],decls:2,vars:0,consts:[["box",""],["type","text",1,"w-full","border-2",3,"keyup"]],template:function(n,o){if(n&1){let a=v();s(0,"textarea",1,0),u("keyup",function(){y(a);let l=p(1);return b(o.onTextChange(l.value))}),c()}}});let i=e;return i})();var bt=(()=>{let e=class e extends g{constructor(){super(...arguments),this.template=`
+<tr>
+                                    <td style="padding-bottom:65px;">
+                                        <table border="0" cellpadding="0" cellspacing="0" style="width:100%;">
+                                            <tr>
+                                                <td style="padding:40px 0 32px;">
+                                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                        <tr>
+                                                            <td class="accentBorder" height="1" bgColor="#494a4c"
+                                                                style="background:url(https://email.cdn-tinkoff.ru/email/images/Line56.png);font-size:1px;line-height:1px;">
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" style="padding:8px 0 8px;">
+                                                    <a href="[% param.url_unsub_topic %]" class="textColor2" target="_blank"
+                                                        style="font-family:'San Francisco', Segoe, Roboto, Arial, Helvetica, sans-serif;color:#adadad;font-weight:normal;font-size:12px;line-height:20px;display:inline-block;text-decoration:none;">
+                                                        \u041E\u0442\u043F\u0438\u0441\u0430\u0442\u044C\u0441\u044F
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" style="padding:8px 0 8px;">
+                                                    <a target="_blank" href="https://www.tinkoff.ru/" class="textColor2"
+                                                        style="font-family:'San Francisco', Segoe, Roboto, Arial, Helvetica, sans-serif;color:#adadad;font-weight:normal;font-size:12px;line-height:20px;text-decoration:none;">T-Bank.ru</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" style="padding-top:24px;">
+                                                    <a 
+                                                        style="font-family:'San Francisco', Segoe, Roboto, Arial, Helvetica, sans-serif;display:inline-block;color:#336fee;text-decoration:none;">
+                                                        <img src="https://email.cdn-tinkoff.ru/email/images/logo24.png"
+                                                            style="display:block;" height="49" border="0"
+                                                            alt="T-Bank.ru">
                                                     </a>
                                                 </td>
                                             </tr>
@@ -343,115 +351,108 @@ import{$a as te,Aa as $,Ab as Qe,B,Ba as fe,Bb as Ze,C as R,Ca as he,Cb as Xe,D 
                                     </td>
                                 </tr>
   `}ngAfterContentInit(){setTimeout(()=>{this.onChange.emit({order:this.order,text:this.template})},0)}};e.\u0275fac=(()=>{let t;return function(o){return(t||(t=x(e)))(o||e)}})(),e.\u0275cmp=d({type:e,selectors:[["app-footer-three"]],standalone:!0,features:[h,f],decls:1,vars:0,template:function(n,o){n&1&&_(0,"hr")}});let i=e;return i})();var xt=(()=>{let e=class e extends g{constructor(){super(...arguments),this.onTextChange=t=>{let n=`
-    <tr>
-    <td style="padding-bottom:48px;">
-        <table border="0" cellpadding="0" cellspacing="0" style="width:100%;">
-            <tr>
-                <td style="padding:40px 0 32px;">
-                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                        <tr>
-                            <td class="accentBorder" height="1" bgColor="#494a4c"
-                                style="background:url(https://email.cdn-tinkoff.ru/email/images/Line56.png);font-size:1px;line-height:1px;">
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-            <tr>
-                <td align="center" style="padding:8px 0 8px;">
-                    <a href="${t}" class="textColor2" target="_blank"
-                        style="font-family:'San\xA0Francisco',\xA0Segoe,\xA0Roboto, Arial, Helvetica,\xA0sans-serif;color:#adadad;font-weight:normal;font-size:12px;line-height:20px;display:inline-block;text-decoration:none;">
-                        \u0423\u0441\u043B\u043E\u0432\u0438\u044F \u0430\u043A\u0446\u0438\u0438
-                    </a>
-                </td>
-            </tr>
-            <tr>
-                <td align="center" style="padding:8px 0 8px;">
-                    <a target="_blank" href="https://www.tinkoff.ru/" class="textColor2"
-                        style="font-family:'San\xA0Francisco',\xA0Segoe,\xA0Roboto, Arial, Helvetica,\xA0sans-serif;color:#adadad;font-weight:normal;font-size:12px;line-height:20px;text-decoration:none;">Tinkoff.ru</a>
-                </td>
-            </tr>
-            <tr>
-                <td align="center" style="padding-top:24px;">
-                    <a href="#" target="_blank"
-                        style="font-family:'San\xA0Francisco',\xA0Segoe,\xA0Roboto, Arial, Helvetica,\xA0sans-serif;display:inline-block;color:#336fee;text-decoration:none;">
-                        <img src="https://email.cdn-tinkoff.ru/email/images/logo@2x.png"
-                            style="display:block;" height="49" border="0"
-                            alt="Tinkoff.ru">
-                    </a>
-                </td>
-            </tr>
-        </table>
-    </td>
-</tr>
-
-
+<tr>
+                                    <td style="padding-bottom:48px;">
+                                        <table border="0" cellpadding="0" cellspacing="0" style="width:100%;">
+                                            <tr>
+                                                <td style="padding:40px 0 32px;">
+                                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                        <tr>
+                                                            <td class="accentBorder" height="1" bgColor="#494a4c"
+                                                                style="background:url(https://email.cdn-tinkoff.ru/email/images/Line56.png);font-size:1px;line-height:1px;">
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" style="padding:8px 0 8px;">
+                                                    <a href="${t}" class="textColor2" target="_blank"
+                                                        style="font-family:'San Francisco', Segoe, Roboto, Arial, Helvetica, sans-serif;color:#adadad;font-weight:normal;font-size:12px;line-height:20px;display:inline-block;text-decoration:none;">
+                                                        \u0423\u0441\u043B\u043E\u0432\u0438\u044F \u0430\u043A\u0446\u0438\u0438
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" style="padding:8px 0 8px;">
+                                                    <a target="_blank" href="https://www.tinkoff.ru/" class="textColor2"
+                                                        style="font-family:'San Francisco', Segoe, Roboto, Arial, Helvetica, sans-serif;color:#adadad;font-weight:normal;font-size:12px;line-height:20px;text-decoration:none;">T-Bank.ru</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" style="padding-top:24px;">
+                                                    <a href="#" target="_blank"
+                                                        style="font-family:'San Francisco', Segoe, Roboto, Arial, Helvetica, sans-serif;display:inline-block;color:#336fee;text-decoration:none;">
+                                                        <img src="https://email.cdn-tinkoff.ru/email/images/logo24.png"
+                                                            style="display:block;" height="49" border="0"
+                                                            alt="T-Bank.ru">
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+								
 
     `;this.onChange.emit({order:this.order,text:n})}}};e.\u0275fac=(()=>{let t;return function(o){return(t||(t=x(e)))(o||e)}})(),e.\u0275cmp=d({type:e,selectors:[["app-footer-four"]],standalone:!0,features:[h,f],decls:2,vars:0,consts:[["box",""],["type","text",1,"w-full","border-2",3,"keyup"]],template:function(n,o){if(n&1){let a=v();s(0,"textarea",1,0),u("keyup",function(){y(a);let l=p(1);return b(o.onTextChange(l.value))}),c()}}});let i=e;return i})();var vt=(()=>{let e=class e extends g{constructor(){super(...arguments),this.onTextChange=t=>{let n=`
-    <tr>
-    <td style="padding-bottom:48px;">
-        <table border="0" cellpadding="0" cellspacing="0" style="width:100%;">
-            <tr>
-                <td style="padding:32px 0 24px;">
-                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                        <tr>
-                            <td class="accentBorder" height="1" bgColor="#494a4c"
-                                style="background:url(https://email.cdn-tinkoff.ru/email/images/Line56.png);font-size:1px;line-height:1px;">
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-            
-            
-                <tr>
-                <td class="textColor1" align="center"
-                    style="font-family:'San\xA0Francisco',\xA0Segoe,\xA0Roboto, Arial, Helvetica,\xA0sans-serif;font-size:12px;line-height:20px;color:#adadad;font-weight:normal;padding:4px 32px 4px;">
-                   <a target="_blank" class="textColor2"
-                        style="font-family:'San\xA0Francisco',\xA0Segoe,\xA0Roboto, Arial, Helvetica,\xA0sans-serif;color:#adadad;font-weight:normal;font-size:12px;line-height:20px;text-decoration:none;"> \u041D\u0435 \u044F\u0432\u043B\u044F\u0435\u0442\u0441\u044F \u0438\u043D\u0434\u0438\u0432\u0438\u0434\u0443\u0430\u043B\u044C\u043D\u043E\u0439 \u0438\u043D\u0432\u0435\u0441\u0442\u0438\u0446\u0438\u043E\u043D\u043D\u043E\u0439 \u0440\u0435\u043A\u043E\u043C\u0435\u043D\u0434\u0430\u0446\u0438\u0435\u0439</a>
-                </td>
-            </tr>
+<tr>
+                                    <td style="padding-bottom:48px;">
+                                        <table border="0" cellpadding="0" cellspacing="0" style="width:100%;">
+                                            <tr>
+                                                <td style="padding:32px 0 24px;">
+                                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                        <tr>
+                                                            <td class="accentBorder" height="1" bgColor="#494a4c"
+                                                                style="background:url(https://email.cdn-tinkoff.ru/email/images/Line56.png);font-size:1px;line-height:1px;">
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+											
+											<tr>
+                                                <td class="textColor1" align="center"
+                                                    style="font-family:'San Francisco', Segoe, Roboto, Arial, Helvetica, sans-serif;font-size:12px;line-height:20px;color:#adadad;font-weight:normal;padding:4px 32px 4px;">
+                                                   <a target="_blank" class="textColor2"
+                                                        style="font-family:'San Francisco', Segoe, Roboto, Arial, Helvetica, sans-serif;color:#adadad;font-weight:normal;font-size:12px;line-height:20px;text-decoration:none;"> \u041D\u0435 \u044F\u0432\u043B\u044F\u0435\u0442\u0441\u044F \u0438\u043D\u0434\u0438\u0432\u0438\u0434\u0443\u0430\u043B\u044C\u043D\u043E\u0439 \u0438\u043D\u0432\u0435\u0441\u0442\u0438\u0446\u0438\u043E\u043D\u043D\u043E\u0439 \u0440\u0435\u043A\u043E\u043C\u0435\u043D\u0434\u0430\u0446\u0438\u0435\u0439</a>
+                                                </td>
+                                            </tr>
 
+											<tr>
+                                                <td class="textColor1" align="center"
+                                                    style="font-family:'San Francisco', Segoe, Roboto, Arial, Helvetica, sans-serif;font-size:12px;line-height:20px;color:#adadad;font-weight:normal;padding:4px 32px 4px;">
+                                                   <a target="_blank" href="https://www.tinkoff.ru/invest/disclaimers/risk/" class="textColor2"
+                                                        style="font-family:'San Francisco', Segoe, Roboto, Arial, Helvetica, sans-serif;color:#adadad;font-weight:normal;font-size:12px;line-height:20px;text-decoration:none;">\u041F\u043E\u0434\u0440\u043E\u0431\u043D\u0435\u0435 \u043E\u0431 \u043E\u0433\u0440\u0430\u043D\u0438\u0447\u0435\u043D\u0438\u0438 \u043E\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0435\u043D\u043D\u043E\u0441\u0442\u0438</a>
+                                                </td>
+                                            </tr>
 
-            <tr>
-                <td class="textColor1" align="center"
-                    style="font-family:'San\xA0Francisco',\xA0Segoe,\xA0Roboto, Arial, Helvetica,\xA0sans-serif;font-size:12px;line-height:20px;color:#adadad;font-weight:normal;padding:4px 32px 4px;">
-                   <a target="_blank" href="https://www.tinkoff.ru/invest/disclaimers/risk/" class="textColor2"
-                        style="font-family:'San\xA0Francisco',\xA0Segoe,\xA0Roboto, Arial, Helvetica,\xA0sans-serif;color:#adadad;font-weight:normal;font-size:12px;line-height:20px;text-decoration:none;">\u041F\u043E\u0434\u0440\u043E\u0431\u043D\u0435\u0435 \u043E\u0431 \u043E\u0433\u0440\u0430\u043D\u0438\u0447\u0435\u043D\u0438\u0438 \u043E\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0435\u043D\u043D\u043E\u0441\u0442\u0438</a>
-                </td>
-            </tr>
-
-
-
-
-
-            <tr>
-                <td align="center" style="padding:4px 0 4px;">
-                    <a href="${t}" class="textColor2" target="_blank"
-                        style="font-family:'San\xA0Francisco',\xA0Segoe,\xA0Roboto, Arial, Helvetica,\xA0sans-serif;color:#adadad ;font-weight:normal;font-size:12px;line-height:20px;display:inline-block;text-decoration:none;">
-                        \u0423\u0441\u043B\u043E\u0432\u0438\u044F \u0430\u043A\u0446\u0438\u0438
-                    </a>
-                </td>
-            </tr>
-            <tr>
-                <td align="center" style="padding:4px 0 4px;">
-                    <a target="_blank" href="https://www.tinkoff.ru/" class="textColor2"
-                        style="font-family:'San\xA0Francisco',\xA0Segoe,\xA0Roboto, Arial, Helvetica,\xA0sans-serif;color:#adadad;font-weight:normal;font-size:12px;line-height:20px;text-decoration:none;">Tinkoff.ru</a>
-                </td>
-            </tr>
-            <tr>
-                <td align="center" style="padding-top:20px;">
-                    <a  
-                        style="font-family:'San\xA0Francisco',\xA0Segoe,\xA0Roboto, Arial, Helvetica,\xA0sans-serif;display:inline-block;color:#336fee;text-decoration:none;">
-                        <img src="https://email.cdn-tinkoff.ru/email/images/logo@2x.png"
-                            style="display:block;" height="49" border="0"
-                            alt="Tinkoff.ru">
-                    </a>
-                </td>
-            </tr>
-        </table>
-    </td>
-</tr>
+                                            <tr>
+                                                <td align="center" style="padding:4px 0 4px;">
+                                                    <a href="${t}" class="textColor2" target="_blank"
+                                                        style="font-family:'San Francisco', Segoe, Roboto, Arial, Helvetica, sans-serif;color:#adadad ;font-weight:normal;font-size:12px;line-height:20px;display:inline-block;text-decoration:none;">
+                                                        \u0423\u0441\u043B\u043E\u0432\u0438\u044F \u0430\u043A\u0446\u0438\u0438
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" style="padding:4px 0 4px;">
+                                                    <a target="_blank" href="https://www.tinkoff.ru/" class="textColor2"
+                                                        style="font-family:'San Francisco', Segoe, Roboto, Arial, Helvetica, sans-serif;color:#adadad;font-weight:normal;font-size:12px;line-height:20px;text-decoration:none;">T-Bank.ru</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" style="padding-top:20px;">
+                                                    <a  
+                                                        style="font-family:'San Francisco', Segoe, Roboto, Arial, Helvetica, sans-serif;display:inline-block;color:#336fee;text-decoration:none;">
+                                                        <img src="https://email.cdn-tinkoff.ru/email/images/logo24.png"
+                                                            style="display:block;" height="49" border="0"
+                                                            alt="T-Bank.ru">
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
     `;this.onChange.emit({order:this.order,text:n})}}};e.\u0275fac=(()=>{let t;return function(o){return(t||(t=x(e)))(o||e)}})(),e.\u0275cmp=d({type:e,selectors:[["app-footer-five"]],standalone:!0,features:[h,f],decls:2,vars:0,consts:[["box",""],["type","text",1,"w-full","border-2",3,"keyup"]],template:function(n,o){if(n&1){let a=v();s(0,"textarea",1,0),u("keyup",function(){y(a);let l=p(1);return b(o.onTextChange(l.value))}),c()}}});let i=e;return i})();var Ct=(()=>{let e=class e extends g{constructor(){super(...arguments),this.onTextChange=(t,n)=>{let o=`
     <!-- start: alarm block -->
     <tr>
@@ -785,8 +786,8 @@ import{$a as te,Aa as $,Ab as Qe,B,Ba as fe,Bb as Ze,C as R,Ca as he,Cb as Xe,D 
     </tr>
 <!-- end: ${a} -->
 `}}ngOnInit(){this.listForm=new ge({bullets:new ne(O.BULLET),items:this.formBuilder.array([new ne])}),this.listForm.valueChanges.pipe(Z(200),X()).subscribe(t=>{let n=this.generateCode(t.bullets,t.items);this.onChange.emit({order:this.order,text:n})})}get formData(){return this.listForm.get("items")}addItem(){this.listForm.get("items").push(new ne(null))}deleteItem(t){this.listForm.get("items").removeAt(t)}};e.\u0275fac=function(n){return new(n||e)(I(Ye))},e.\u0275cmp=d({type:e,selectors:[["app-dynamic-list"]],standalone:!0,features:[h,f],decls:7,vars:3,consts:[[1,"overflow-auto","mt-4","mb-4",3,"formGroup"],[1,"flex","gap-4","mb-4"],[4,"ngFor","ngForOf"],["formArrayName","items"],["class","flex justify-between",4,"ngFor","ngForOf"],["tuiButton","","appearance","secondary","size","s","type","button",3,"click"],["type","radio","formControlName","bullets",3,"value"],[1,"flex","justify-between"],["type","text",1,"border-2","w-full","mb-2",3,"formControlName"],["src","tuiIconX",1,"delete",3,"click"]],template:function(n,o){n&1&&(s(0,"form",0)(1,"div",1),z(2,on,4,2,"div",2),c(),s(3,"div",3),z(4,rn,3,1,"div",4),c(),s(5,"button",5),u("click",function(){return o.addItem()}),w(6,"\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u044D\u043B\u0435\u043C\u0435\u043D\u0442 \u0441\u043F\u0438\u0441\u043A\u0430"),c()()),n&2&&(S("formGroup",o.listForm),F(2),S("ngForOf",o.bullets),F(2),S("ngForOf",o.formData==null?null:o.formData.controls))},dependencies:[Je,qe,Le,Ke,Ge,Ue,Qe,Xe,Ze,te,ee,L,W,oe,ie],styles:["[_nghost-%COMP%]{display:block;height:100%;overflow:auto}"]});let i=e;return i})();function an(i,e){i&1&&Oe(0)}function sn(i,e){if(i&1){let r=v();s(0,"tui-tile",3)(1,"div",4),w(2),z(3,an,1,0,"ng-container",5),_(4,"tui-svg",6),s(5,"tui-svg",7),u("click",function(){let n=y(r).index,o=$();return b(o.removeComponent(n))}),c()()()}if(i&2){let r=e.$implicit,t=e.index,n=$();U("order",n.order.get(t)),S("height",r.height)("width",3),F(2),q(" ",r.name," "),F(),S("ngComponentOutlet",r.component)("ngComponentOutletNdcDynamicInputs",r.inputs)("ngComponentOutletNdcDynamicOutputs",r.outputs)}}function cn(i,e){if(i&1){let r=v();s(0,"button",8),u("click",function(){let n=y(r).$implicit,o=$();return b(o.addComponent(n))}),w(1),c()}if(i&2){let r=e.$implicit;F(),q(" ",r.name,`
-`)}}var Lt=(()=>{let e=class e{constructor(){this.onGenerateCode=new j,this.components=[{component:ut,name:"ContentTitle",height:1},{component:pt,name:"ContentText",height:2},{component:st,name:"Preheader",height:1},{component:ct,name:"HeaderTitle",height:1},{component:lt,name:"HeaderText",height:1},{component:dt,name:"\u041E\u0431\u044F\u0437\u0430\u0442\u0435\u043B\u044C\u043D\u044B\u0439 \u0431\u043B\u043E\u043A \u043F\u043E\u0441\u043B\u0435 \u0445\u0435\u0434\u0435\u0440\u0430",height:1},{component:rt,name:"Little Title",height:1},{component:ot,name:"Accent text with background",height:1},{component:mt,name:"AccentTextWithBorder",height:1},{component:at,name:"Text line",height:1},{component:Tt,name:"Image - \u043D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u0444\u0430\u0439\u043B\u0430 \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F",height:1},{component:ft,name:"\u041A\u043D\u043E\u043F\u043A\u0430",height:2},{component:ht,name:"\u041A\u043D\u043E\u043F\u043A\u0430 \u0441 \u0433\u0438\u0444",height:2},{component:gt,name:"FooterOne - \u0444\u0443\u0442\u0435\u0440 \u0434\u043E\u0431\u0430\u0432\u043B\u0435\u043D \u0432 \u043A\u043E\u0434",height:1},{component:yt,name:"FooterTwo - \u0441\u0441\u044B\u043B\u043A\u0430 \u043D\u0430 \u0443\u0441\u043B\u043E\u0432\u0438\u044F \u0430\u043A\u0446\u0438\u0438",height:1},{component:bt,name:"FooterThree - \u0444\u0443\u0442\u0435\u0440 \u0434\u043E\u0431\u0430\u0432\u043B\u0435\u043D \u0432 \u043A\u043E\u0434",height:1},{component:xt,name:"FooterFour - \u0441\u0441\u044B\u043B\u043A\u0430 \u043D\u0430 \u0443\u0441\u043B\u043E\u0432\u0438\u044F \u0430\u043A\u0446\u0438\u0438",height:1},{component:vt,name:"FooterFive - \u0441\u0441\u044B\u043B\u043A\u0430 \u043D\u0430 \u0443\u0441\u043B\u043E\u0432\u0438\u044F \u0430\u043A\u0446\u0438\u0438",height:1},{component:Ct,name:"AlarmBlock",height:2},{component:Dt,name:"PromoBlock",height:2},{component:wt,name:"BringFriend",height:2},{component:kt,name:"EmptyPreheader",height:1},{component:_t,name:"\u041B\u043E\u0433\u043E \u0441\u043A\u0430\u0447\u0430\u0442\u044C \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435",height:1},{component:Wt,name:"\u0421\u043F\u0438\u0441\u043E\u043A",height:3},{component:Ft,name:"\u0411\u043B\u043E\u043A \u0441 \u043C\u0430\u043B\u0435\u043D\u044C\u043A\u043E\u0439 \u043A\u0432\u0430\u0434\u0440\u0430\u0442\u043D\u043E\u0439 \u043A\u0430\u0440\u0442\u0438\u043D\u043A\u043E\u0439",height:2},{component:It,name:"\u0411\u043B\u043E\u043A \u0441 \u043C\u0430\u043B\u0435\u043D\u044C\u043A\u043E\u0439 \u043A\u0440\u0443\u0433\u043B\u043E\u0439 \u043A\u0430\u0440\u0442\u0438\u043D\u043A\u043E\u0439",height:3},{component:St,name:"\u0423\u0441\u043B\u043E\u0432\u043D\u044B\u0435 \u043E\u043F\u0435\u0440\u0430\u0442\u043E\u0440\u044B",height:1},{component:Mt,name:"\u041E\u0442\u043F\u0440\u0430\u0432\u0438\u0442\u044C \u0432 \u0422\u0435\u043B\u0435\u0433\u0440\u0430\u043C",height:1}],this.blocks=[],this.order=new Map,this.addComponent=t=>{let n=this.blocks.length;this.order.set(n,n),this.blocks.push({name:t.name,component:t.component,inputs:{order:n},outputs:{onChange:o=>{this.onGenerateCode.emit(this.generateCode(o))}},code:"",height:t.height}),this.onGenerateCode.emit(this.generateCode({order:n,text:""}))},this.removeComponent=t=>{let n=[],o=this.order.get(t);this.blocks.splice(t,1),this.order.delete(t),this.order.forEach((m,l)=>{n.push([l>=t?l-1:l,m>o?m-1:m])}),this.order=new Map(n);let a=this.updateCode(this.order);this.onGenerateCode.emit(a)},this.generateCode=t=>(this.blocks[t.order].code=t.text,this.updateCode(this.order)),this.updateCode=t=>{let n="";return[...t].sort((a,m)=>Number(a[1])-Number(m[1])).forEach(a=>{n+=this.blocks[a[0]].code}),n}}onDrag(t){let n=this.updateCode(t);this.onGenerateCode.emit(n)}};e.\u0275fac=function(n){return new(n||e)},e.\u0275cmp=d({type:e,selectors:[["app-input"]],outputs:{onGenerateCode:"onGenerateCode"},standalone:!0,features:[f],decls:3,vars:4,consts:[[1,"tiles",3,"orderChange","debounce","order"],["class","tile",3,"height","order","width",4,"ngFor","ngForOf"],["appearance","primary","tuiButton","","type","button","class","tui-space_right-3 tui-space_bottom-3",3,"click",4,"ngFor","ngForOf"],[1,"tile",3,"height","width"],[1,"content"],[4,"ngComponentOutlet","ngComponentOutletNdcDynamicInputs","ngComponentOutletNdcDynamicOutputs"],["src","tuiIconDragLarge","tuiTileHandle","",1,"handle"],["src","tuiIconX",1,"delete",3,"click"],["appearance","primary","tuiButton","","type","button",1,"tui-space_right-3","tui-space_bottom-3",3,"click"]],template:function(n,o){n&1&&(s(0,"tui-tiles",0),He("orderChange",function(m){return ze(o.order,m)||(o.order=m),m}),u("orderChange",function(m){return o.onDrag(m)}),z(1,sn,6,8,"tui-tile",1),c(),z(2,cn,2,1,"button",2)),n&2&&(S("debounce",200),Ne("order",o.order),F(),S("ngForOf",o.blocks),F(),S("ngForOf",o.components))},dependencies:[Et,re,Ce,Ot,oe,ie,L,W,te,J,ee,Pt,Ht,zt],styles:['.tiles[_ngcontent-%COMP%]{max-height:70%;overflow:auto;gap:1rem;grid-auto-rows:minmax(100px,auto)}.tile[_ngcontent-%COMP%]:before{content:"Drop here";display:flex;height:100%;justify-content:center;align-items:center;box-sizing:border-box;color:var(--tui-base-04);border-radius:var(--tui-radius-l);border:2px dashed var(--tui-base-03)}.content[_ngcontent-%COMP%]{position:relative;transition:box-shadow .3s;height:100%;padding:1rem;background:var(--tui-base-01);box-sizing:border-box;border-radius:var(--tui-radius-l);border:1px solid var(--tui-base-03);overflow:hidden}tui-tile._dragged[_ngcontent-%COMP%]   .content[_ngcontent-%COMP%]{box-shadow:var(--tui-shadow-hover)}.title[_ngcontent-%COMP%]{margin:0 0 1rem}.handle[_ngcontent-%COMP%]{transition:opacity .3s;position:absolute;right:.75rem;top:1rem;background:var(--tui-base-01);opacity:0;cursor:move}tui-tiles[_ngcontent-%COMP%]:not(._dragged)   tui-tile[_ngcontent-%COMP%]:hover   .handle[_ngcontent-%COMP%], tui-tile._dragged[_ngcontent-%COMP%]   .handle[_ngcontent-%COMP%]{opacity:.7}.delete[_ngcontent-%COMP%]{top:0;right:0;position:absolute}']});let i=e;return i})();var De=class{constructor(e,r){this._document=r;let t=this._textarea=this._document.createElement("textarea"),n=t.style;n.position="fixed",n.top=n.opacity="0",n.left="-999em",t.setAttribute("aria-hidden","true"),t.value=e,t.readOnly=!0,(this._document.fullscreenElement||this._document.body).appendChild(t)}copy(){let e=this._textarea,r=!1;try{if(e){let t=this._document.activeElement;e.select(),e.setSelectionRange(0,e.value.length),r=this._document.execCommand("copy"),t&&t.focus()}}catch{}return r}destroy(){let e=this._textarea;e&&(e.remove(),this._textarea=void 0)}},ln=(()=>{let e=class e{constructor(t){this._document=t}copy(t){let n=this.beginCopy(t),o=n.copy();return n.destroy(),o}beginCopy(t){return new De(t,this._document)}};e.\u0275fac=function(n){return new(n||e)(T(We))},e.\u0275prov=B({token:e,factory:e.\u0275fac,providedIn:"root"});let i=e;return i})(),dn=new A("CDK_COPY_TO_CLIPBOARD_CONFIG"),Gt=(()=>{let e=class e{constructor(t,n,o){this._clipboard=t,this._ngZone=n,this.text="",this.attempts=1,this.copied=new j,this._pending=new Set,o&&o.attempts!=null&&(this.attempts=o.attempts)}copy(t=this.attempts){if(t>1){let n=t,o=this._clipboard.beginCopy(this.text);this._pending.add(o);let a=()=>{let m=o.copy();!m&&--n&&!this._destroyed?this._currentTimeout=this._ngZone.runOutsideAngular(()=>setTimeout(a,1)):(this._currentTimeout=null,this._pending.delete(o),o.destroy(),this.copied.emit(m))};a()}else this.copied.emit(this._clipboard.copy(this.text))}ngOnDestroy(){this._currentTimeout&&clearTimeout(this._currentTimeout),this._pending.forEach(t=>t.destroy()),this._pending.clear(),this._destroyed=!0}};e.\u0275fac=function(n){return new(n||e)(I(ln),I(Be),I(dn,8))},e.\u0275dir=E({type:e,selectors:[["","cdkCopyToClipboard",""]],hostBindings:function(n,o){n&1&&u("click",function(){return o.copy()})},inputs:{text:[de.None,"cdkCopyToClipboard","text"],attempts:[de.None,"cdkCopyToClipboardAttempts","attempts"]},outputs:{copied:"cdkCopyToClipboardCopied"},standalone:!0});let i=e;return i})(),Ut=(()=>{let e=class e{};e.\u0275fac=function(n){return new(n||e)},e.\u0275mod=V({type:e}),e.\u0275inj=R({});let i=e;return i})();var qt=(()=>{let e=class e{constructor(){this.code="",this.formattedCode="",this.prefix=`
-  <html>
+`)}}var Lt=(()=>{let e=class e{constructor(){this.onGenerateCode=new j,this.components=[{component:ut,name:"ContentTitle",height:1},{component:pt,name:"ContentText",height:2},{component:st,name:"Preheader",height:1},{component:ct,name:"HeaderTitle",height:1},{component:lt,name:"HeaderText",height:1},{component:dt,name:"\u041E\u0431\u044F\u0437\u0430\u0442\u0435\u043B\u044C\u043D\u044B\u0439 \u0431\u043B\u043E\u043A \u043F\u043E\u0441\u043B\u0435 \u0445\u0435\u0434\u0435\u0440\u0430",height:1},{component:rt,name:"Little Title",height:1},{component:ot,name:"Accent text with background",height:1},{component:mt,name:"AccentTextWithBorder",height:1},{component:at,name:"Text line",height:1},{component:Tt,name:"Image - \u043D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u0444\u0430\u0439\u043B\u0430 \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F",height:1},{component:ft,name:"\u041A\u043D\u043E\u043F\u043A\u0430",height:2},{component:ht,name:"\u041A\u043D\u043E\u043F\u043A\u0430 \u0441 \u0433\u0438\u0444",height:2},{component:gt,name:"\u0424\u0443\u0442\u0435\u0440 1. \u0422-\u0411\u0430\u043D\u043A + \u043B\u043E\u0433\u043E",height:1},{component:yt,name:"\u0424\u0443\u0442\u0435\u0440 2. \u0422-\u0411\u0430\u043D\u043A + \u041E\u0442\u043F\u0438\u0441\u0430\u0442\u044C\u0441\u044F + \u0423\u0441\u043B\u043E\u0432\u0438\u044F",height:1},{component:bt,name:"\u0424\u0443\u0442\u0435\u0440 3. \u0422-\u0411\u0430\u043D\u043A + \u041E\u0442\u043F\u0438\u0441\u0430\u0442\u044C\u0441\u044F",height:1},{component:xt,name:"\u0424\u0443\u0442\u0435\u0440 4. \u0422-\u0411\u0430\u043D\u043A + \u0423\u0441\u043B\u043E\u0432\u0438\u044F",height:1},{component:vt,name:"\u0424\u0443\u0442\u0435\u0440 5. \u0422-\u0411\u0430\u043D\u043A + \u0418\u043D\u0432\u0435\u0441\u0442 \u0440\u0435\u043A\u043E\u043C\u0435\u043D\u0434 + \u0443\u0441\u043B\u043E\u0432\u0438\u044F",height:1},{component:Ct,name:"AlarmBlock",height:2},{component:Dt,name:"PromoBlock",height:2},{component:wt,name:"BringFriend",height:2},{component:kt,name:"EmptyPreheader",height:1},{component:_t,name:"\u041B\u043E\u0433\u043E \u0441\u043A\u0430\u0447\u0430\u0442\u044C \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435",height:1},{component:Wt,name:"\u0421\u043F\u0438\u0441\u043E\u043A",height:3},{component:Ft,name:"\u0411\u043B\u043E\u043A \u0441 \u043C\u0430\u043B\u0435\u043D\u044C\u043A\u043E\u0439 \u043A\u0432\u0430\u0434\u0440\u0430\u0442\u043D\u043E\u0439 \u043A\u0430\u0440\u0442\u0438\u043D\u043A\u043E\u0439",height:2},{component:It,name:"\u0411\u043B\u043E\u043A \u0441 \u043C\u0430\u043B\u0435\u043D\u044C\u043A\u043E\u0439 \u043A\u0440\u0443\u0433\u043B\u043E\u0439 \u043A\u0430\u0440\u0442\u0438\u043D\u043A\u043E\u0439",height:3},{component:St,name:"\u0423\u0441\u043B\u043E\u0432\u043D\u044B\u0435 \u043E\u043F\u0435\u0440\u0430\u0442\u043E\u0440\u044B",height:1},{component:Mt,name:"\u041E\u0442\u043F\u0440\u0430\u0432\u0438\u0442\u044C \u0432 \u0422\u0435\u043B\u0435\u0433\u0440\u0430\u043C",height:1}],this.blocks=[],this.order=new Map,this.addComponent=t=>{let n=this.blocks.length;this.order.set(n,n),this.blocks.push({name:t.name,component:t.component,inputs:{order:n},outputs:{onChange:o=>{this.onGenerateCode.emit(this.generateCode(o))}},code:"",height:t.height}),this.onGenerateCode.emit(this.generateCode({order:n,text:""}))},this.removeComponent=t=>{let n=[],o=this.order.get(t);this.blocks.splice(t,1),this.order.delete(t),this.order.forEach((m,l)=>{n.push([l>=t?l-1:l,m>o?m-1:m])}),this.order=new Map(n);let a=this.updateCode(this.order);this.onGenerateCode.emit(a)},this.generateCode=t=>(this.blocks[t.order].code=t.text,this.updateCode(this.order)),this.updateCode=t=>{let n="";return[...t].sort((a,m)=>Number(a[1])-Number(m[1])).forEach(a=>{n+=this.blocks[a[0]].code}),n}}onDrag(t){let n=this.updateCode(t);this.onGenerateCode.emit(n)}};e.\u0275fac=function(n){return new(n||e)},e.\u0275cmp=d({type:e,selectors:[["app-input"]],outputs:{onGenerateCode:"onGenerateCode"},standalone:!0,features:[f],decls:3,vars:4,consts:[[1,"tiles",3,"orderChange","debounce","order"],["class","tile",3,"height","order","width",4,"ngFor","ngForOf"],["appearance","primary","tuiButton","","type","button","class","tui-space_right-3 tui-space_bottom-3",3,"click",4,"ngFor","ngForOf"],[1,"tile",3,"height","width"],[1,"content"],[4,"ngComponentOutlet","ngComponentOutletNdcDynamicInputs","ngComponentOutletNdcDynamicOutputs"],["src","tuiIconDragLarge","tuiTileHandle","",1,"handle"],["src","tuiIconX",1,"delete",3,"click"],["appearance","primary","tuiButton","","type","button",1,"tui-space_right-3","tui-space_bottom-3",3,"click"]],template:function(n,o){n&1&&(s(0,"tui-tiles",0),He("orderChange",function(m){return ze(o.order,m)||(o.order=m),m}),u("orderChange",function(m){return o.onDrag(m)}),z(1,sn,6,8,"tui-tile",1),c(),z(2,cn,2,1,"button",2)),n&2&&(S("debounce",200),Ne("order",o.order),F(),S("ngForOf",o.blocks),F(),S("ngForOf",o.components))},dependencies:[Et,re,Ce,Ot,oe,ie,L,W,te,J,ee,Pt,Ht,zt],styles:['.tiles[_ngcontent-%COMP%]{max-height:70%;overflow:auto;gap:1rem;grid-auto-rows:minmax(100px,auto)}.tile[_ngcontent-%COMP%]:before{content:"Drop here";display:flex;height:100%;justify-content:center;align-items:center;box-sizing:border-box;color:var(--tui-base-04);border-radius:var(--tui-radius-l);border:2px dashed var(--tui-base-03)}.content[_ngcontent-%COMP%]{position:relative;transition:box-shadow .3s;height:100%;padding:1rem;background:var(--tui-base-01);box-sizing:border-box;border-radius:var(--tui-radius-l);border:1px solid var(--tui-base-03);overflow:hidden}tui-tile._dragged[_ngcontent-%COMP%]   .content[_ngcontent-%COMP%]{box-shadow:var(--tui-shadow-hover)}.title[_ngcontent-%COMP%]{margin:0 0 1rem}.handle[_ngcontent-%COMP%]{transition:opacity .3s;position:absolute;right:.75rem;top:1rem;background:var(--tui-base-01);opacity:0;cursor:move}tui-tiles[_ngcontent-%COMP%]:not(._dragged)   tui-tile[_ngcontent-%COMP%]:hover   .handle[_ngcontent-%COMP%], tui-tile._dragged[_ngcontent-%COMP%]   .handle[_ngcontent-%COMP%]{opacity:.7}.delete[_ngcontent-%COMP%]{top:0;right:0;position:absolute}']});let i=e;return i})();var De=class{constructor(e,r){this._document=r;let t=this._textarea=this._document.createElement("textarea"),n=t.style;n.position="fixed",n.top=n.opacity="0",n.left="-999em",t.setAttribute("aria-hidden","true"),t.value=e,t.readOnly=!0,(this._document.fullscreenElement||this._document.body).appendChild(t)}copy(){let e=this._textarea,r=!1;try{if(e){let t=this._document.activeElement;e.select(),e.setSelectionRange(0,e.value.length),r=this._document.execCommand("copy"),t&&t.focus()}}catch{}return r}destroy(){let e=this._textarea;e&&(e.remove(),this._textarea=void 0)}},ln=(()=>{let e=class e{constructor(t){this._document=t}copy(t){let n=this.beginCopy(t),o=n.copy();return n.destroy(),o}beginCopy(t){return new De(t,this._document)}};e.\u0275fac=function(n){return new(n||e)(T(We))},e.\u0275prov=B({token:e,factory:e.\u0275fac,providedIn:"root"});let i=e;return i})(),dn=new A("CDK_COPY_TO_CLIPBOARD_CONFIG"),Gt=(()=>{let e=class e{constructor(t,n,o){this._clipboard=t,this._ngZone=n,this.text="",this.attempts=1,this.copied=new j,this._pending=new Set,o&&o.attempts!=null&&(this.attempts=o.attempts)}copy(t=this.attempts){if(t>1){let n=t,o=this._clipboard.beginCopy(this.text);this._pending.add(o);let a=()=>{let m=o.copy();!m&&--n&&!this._destroyed?this._currentTimeout=this._ngZone.runOutsideAngular(()=>setTimeout(a,1)):(this._currentTimeout=null,this._pending.delete(o),o.destroy(),this.copied.emit(m))};a()}else this.copied.emit(this._clipboard.copy(this.text))}ngOnDestroy(){this._currentTimeout&&clearTimeout(this._currentTimeout),this._pending.forEach(t=>t.destroy()),this._pending.clear(),this._destroyed=!0}};e.\u0275fac=function(n){return new(n||e)(I(ln),I(Be),I(dn,8))},e.\u0275dir=E({type:e,selectors:[["","cdkCopyToClipboard",""]],hostBindings:function(n,o){n&1&&u("click",function(){return o.copy()})},inputs:{text:[de.None,"cdkCopyToClipboard","text"],attempts:[de.None,"cdkCopyToClipboardAttempts","attempts"]},outputs:{copied:"cdkCopyToClipboardCopied"},standalone:!0});let i=e;return i})(),Ut=(()=>{let e=class e{};e.\u0275fac=function(n){return new(n||e)},e.\u0275mod=V({type:e}),e.\u0275inj=R({});let i=e;return i})();var qt=(()=>{let e=class e{constructor(){this.code="",this.formattedCode="",this.prefix=`
+<html>
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -794,7 +795,7 @@ import{$a as te,Aa as $,Ab as Qe,B,Ba as fe,Bb as Ze,C as R,Ca as he,Cb as Xe,D 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="color-scheme" content="light dark">
     <meta name="supported-color-schemes" content="light dark">
-    <title>\u0422\u0438\u043D\u044C\u043A\u043E\u0444\u0444</title>
+    <title>\u0422-\u0411\u0430\u043D\u043A</title>
 
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i"
         rel="stylesheet">
@@ -814,7 +815,7 @@ import{$a as te,Aa as $,Ab as Qe,B,Ba as fe,Bb as Ze,C as R,Ca as he,Cb as Xe,D 
             word-wrap: normal;
             word-break: normal;
             hyphens: none;
-            font-family: 'San\xA0Francisco', Segoe, Roboto, Arial, Helvetica, sans-serif !important;
+            font-family: 'San Francisco', Segoe, Roboto, Arial, Helvetica, sans-serif !important;
         }
 
         .bullet {
@@ -1009,6 +1010,14 @@ import{$a as te,Aa as $,Ab as Qe,B,Ba as fe,Bb as Ze,C as R,Ca as he,Cb as Xe,D 
         style="border-collapse:collapse;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;-moz-text-size-adjust:none;word-wrap:normal;word-break:normal;hyphens:none;">
         <tr>
             <td align="center" style="padding-bottom:48px;">
+                <!-- start: empty preheader -->
+                <!--[if !mso]><!-->
+                <div class="preheader" style="font-size:0px;color:transparent;opacity:0;"></div>
+                <div class="preheader" style="font-size:0px;color:transparent;opacity:0;">
+                    &#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;\u2005
+                </div>
+                <!--<![endif]-->
+                <!-- end: empty preheader -->
 
                 <!--[if gte mso 9]>
                 <table border="0" cellpadding="0" cellspacing="0" width="600">
@@ -1031,6 +1040,7 @@ import{$a as te,Aa as $,Ab as Qe,B,Ba as fe,Bb as Ze,C as R,Ca as he,Cb as Xe,D 
                                 <tr>
                                     <td style="padding:20px 0 16px;">
                                         <table border="0" cellpadding="0" cellspacing="0" width="100%">
+
 
   `,this.suffix=`
   </table>
