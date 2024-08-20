@@ -11,7 +11,7 @@ import { DynamicBlock } from '../dynamic-block';
 export class FooterThreeComponent extends DynamicBlock implements AfterContentInit {
   template = `
 <tr>
-                                    <td style="padding-bottom:48px;">
+                                    <td style="padding-bottom:65px;">
                                         <table border="0" cellpadding="0" cellspacing="0" style="width:100%;">
                                             <tr>
                                                 <td style="padding:40px 0 32px;">
@@ -26,17 +26,25 @@ export class FooterThreeComponent extends DynamicBlock implements AfterContentIn
                                             </tr>
                                             <tr>
                                                 <td align="center" style="padding:8px 0 8px;">
-                                                    <a target="_blank" href="https://www.tinkoff.ru/" class="textColor2"
-                                                        style="font-family:'San Francisco', Segoe, Roboto, Arial, Helvetica, sans-serif;color:#adadad;font-weight:normal;font-size:12px;line-height:20px;text-decoration:none;">Tinkoff.ru</a>
+                                                    <a href="[% param.url_unsub_topic %]" class="textColor2" target="_blank"
+                                                        style="font-family:'San Francisco', Segoe, Roboto, Arial, Helvetica, sans-serif;color:#adadad;font-weight:normal;font-size:12px;line-height:20px;display:inline-block;text-decoration:none;">
+                                                        Отписаться
+                                                    </a>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td align="center" style="padding-top:12px;">
+                                                <td align="center" style="padding:8px 0 8px;">
+                                                    <a target="_blank" href="https://www.tinkoff.ru/" class="textColor2"
+                                                        style="font-family:'San Francisco', Segoe, Roboto, Arial, Helvetica, sans-serif;color:#adadad;font-weight:normal;font-size:12px;line-height:20px;text-decoration:none;">T-Bank.ru</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" style="padding-top:24px;">
                                                     <a 
-                                                        style="font-family:'San Francisco', Segoe, Roboto, Arial, Helvetica, sans-serif;display:inline-block;color:#336fee;text-decoration:none;">
-                                                        <img src="https://email.cdn-tinkoff.ru/email/images/logo@2x.png"
+                                                        style="font-family:'San Francisco', Segoe, Roboto, Arial, Helvetica, sans-serif;display:inline-block;color:#336fee;text-decoration:none;">
+                                                        <img src="https://email.cdn-tinkoff.ru/email/images/logo24.png"
                                                             style="display:block;" height="49" border="0"
-                                                            alt="Tinkoff.ru">
+                                                            alt="T-Bank.ru">
                                                     </a>
                                                 </td>
                                             </tr>

@@ -124,27 +124,27 @@ export class InputComponent {
     },
     {
       component: FooterOneComponent,
-      name: 'FooterOne - футер добавлен в код',
+      name: 'Футер 1. Т-Банк + лого',
       height: 1
     },
     {
       component: FooterTwoComponent,
-      name: 'FooterTwo - ссылка на условия акции',
+      name: 'Футер 2. Т-Банк + Отписаться + Условия',
       height: 1
     },
     {
       component: FooterThreeComponent,
-      name: 'FooterThree - футер добавлен в код',
+      name: 'Футер 3. Т-Банк + Отписаться',
       height: 1
     },
     {
       component: FooterFourComponent,
-      name: 'FooterFour - ссылка на условия акции',
+      name: 'Футер 4. Т-Банк + Условия',
       height: 1
     },
     {
       component: FooterFiveComponent,
-      name: 'FooterFive - ссылка на условия акции',
+      name: 'Футер 5. Т-Банк + Инвест рекоменд + условия',
       height: 1
     },
     {
